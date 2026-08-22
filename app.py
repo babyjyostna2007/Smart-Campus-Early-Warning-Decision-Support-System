@@ -143,6 +143,31 @@ def metric_card(label, value, sub=""):
     )
 
 
+def avg_by_risk_chart(cols: list, title: str):
+    """Grouped bar chart: average value of each given feature, by Risk_Level,
+    scaled 0-100 per feature so differently-sized features are comparable."""
+    avg_by_risk = df.groupby("Risk_Level")[cols].mean().reindex(["Low", "Medium", "High"])
+    avg_by_risk_norm = avg_by_risk / avg_by_risk.max() * 100
+
+    fig = go.Figure()
+    for level in ["Low", "Medium", "High"]:
+        fig.add_trace(go.Bar(
+            name=level,
+            x=cols,
+            y=avg_by_risk_norm.loc[level],
+            marker_color=RISK_COLORS[level],
+            customdata=avg_by_risk.loc[level].round(1),
+            hovertemplate="%{x}: %{customdata} (avg)<extra>%{fullData.name}</extra>"
+        ))
+    fig.update_layout(
+        barmode="group",
+        title=title,
+        yaxis_title="Relative scale (0-100)",
+        legend_title="Risk Level"
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+
 def get_key_risk_factors(inputs: dict) -> list:
     """Rule-based key risk factors, mirroring the logic used to label the training data."""
     factors = []
@@ -379,12 +404,10 @@ with tab_academic:
     live_alert_banner("academic")
 
     st.markdown("#### Academic Trends in Dataset")
-    fig = px.scatter(
-        df, x="Current_GPA", y="Attendance", color="Risk_Level",
-        color_discrete_map=RISK_COLORS,
-        title="Attendance vs Current GPA colored by Risk Level"
+    avg_by_risk_chart(
+        ["Attendance", "Current_GPA", "Previous_GPA", "Assignment_Rate", "Backlogs"],
+        "Average Academic Values by Risk Level (scaled for comparison)"
     )
-    st.plotly_chart(fig, use_container_width=True)
 
     fig2 = px.box(df, x="Risk_Level", y="Backlogs", color="Risk_Level",
                    color_discrete_map=RISK_COLORS, title="Backlogs by Risk Level")
@@ -410,12 +433,10 @@ with tab_facility:
     live_alert_banner("facility")
 
     st.markdown("#### Facility Trends in Dataset")
-    fig = px.scatter(
-        df, x="Occupancy_Rate", y="Electricity_Usage", color="Risk_Level",
-        color_discrete_map=RISK_COLORS,
-        title="Electricity Usage vs Occupancy Rate colored by Risk Level"
+    avg_by_risk_chart(
+        ["Occupancy_Rate", "Electricity_Usage", "Internet_Usage", "Maintenance_Complaints"],
+        "Average Facility Values by Risk Level (scaled for comparison)"
     )
-    st.plotly_chart(fig, use_container_width=True)
 
     fig2 = px.box(df, x="Risk_Level", y="Maintenance_Complaints", color="Risk_Level",
                    color_discrete_map=RISK_COLORS, title="Maintenance Complaints by Risk Level")
@@ -442,12 +463,10 @@ with tab_env:
     live_alert_banner("environment")
 
     st.markdown("#### Environmental Trends in Dataset")
-    fig = px.scatter(
-        df, x="Rainfall", y="Water_Level", color="Risk_Level",
-        color_discrete_map=RISK_COLORS,
-        title="Water Level vs Rainfall colored by Risk Level"
+    avg_by_risk_chart(
+        ["Temperature", "Humidity", "Rainfall", "Water_Level", "Air_Quality_Index"],
+        "Average Environmental Values by Risk Level (scaled for comparison)"
     )
-    st.plotly_chart(fig, use_container_width=True)
 
     fig2 = px.box(df, x="Risk_Level", y="Air_Quality_Index", color="Risk_Level",
                    color_discrete_map=RISK_COLORS, title="Air Quality Index by Risk Level")
