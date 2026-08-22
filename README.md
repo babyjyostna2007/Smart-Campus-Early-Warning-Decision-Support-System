@@ -255,11 +255,3 @@ streamlit run app.py
 ## ⚠️ Note
 
 This project is a **prototype for educational and demonstration purposes**. The dataset should be replaced with properly collected and validated real-world campus data before using the system for actual institutional decisions.
-
-## 👩‍💻 Author
-
-**Jyostna**
-
-**Project:** Smart Campus – Early-Warning and Decision-Making System
-
-**Domain:** Data Science & Machine Learning
