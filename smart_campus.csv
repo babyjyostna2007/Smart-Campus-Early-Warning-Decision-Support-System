@@ -1,0 +1,751 @@
+Student_ID,Attendance,Current_GPA,Previous_GPA,Assignment_Rate,Backlogs,Occupancy_Rate,Electricity_Usage,Internet_Usage,Maintenance_Complaints,Temperature,Humidity,Rainfall,Water_Level,Air_Quality_Index,Risk_Score,Risk_Level,Risk_Factors,Recommended_Action
+ST1001,78,5.92,7.71,43,5,63,1052.5,81,15,28.5,30,79.4,94,226,84.4,High,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1002,91,9.37,8.52,63,3,49,458.7,82,11,41.3,80,42.7,32,201,21.7,Low,Backlogs,Continue regular monitoring
+ST1003,68,6.34,4.95,82,1,77,900.2,72,7,35.3,34,97.1,77,146,48.4,Medium,Low attendance; Heavy rainfall; High water level,Monitor performance and attendance
+ST1004,54,4.07,9.29,49,1,61,1142.3,71,15,21.8,42,35.4,30,216,66.7,Medium,Low attendance; Declining GPA; Low assignment completion,Monitor performance and attendance
+ST1005,82,9.43,9.23,45,1,65,1145.3,55,8,39.0,48,68.5,52,240,18.5,Low,Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1006,47,4.55,4.18,99,4,82,810.4,52,15,30.6,41,89.4,94,246,90.0,High,Low attendance; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1007,100,5.92,8.95,85,3,94,1435.9,72,14,21.5,77,45.5,35,110,39.3,Low,Declining GPA; Backlogs,Continue regular monitoring
+ST1008,60,9.7,4.77,87,1,78,584.1,57,13,32.1,54,36.3,50,174,13.4,Low,Low attendance,Continue regular monitoring
+ST1009,78,9.7,6.01,33,2,66,950.4,38,10,29.2,86,55.1,47,27,24.8,Low,Low assignment completion; Backlogs,Continue regular monitoring
+ST1010,97,7.44,8.46,33,5,68,1160.0,49,11,39.3,64,98.2,97,51,73.7,High,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1011,58,7.79,4.96,49,5,86,1166.8,85,0,24.5,34,111.6,20,231,72.9,High,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1012,62,6.69,8.91,39,2,77,1113.5,68,15,38.2,51,65.4,38,83,53.4,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1013,50,5.76,8.99,53,5,59,702.8,80,13,32.3,86,79.4,69,157,83.1,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1014,50,5.97,7.04,55,4,66,571.8,41,10,21.2,76,108.4,76,32,84.3,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1015,63,8.04,4.04,66,4,80,1099.5,84,1,41.4,83,11.8,74,210,49.4,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1016,92,8.51,5.72,83,0,93,1059.2,40,9,31.3,32,27.8,70,112,5.1,Low,No major risk factors,Continue regular monitoring
+ST1017,75,8.75,7.7,50,0,59,597.3,55,1,26.4,82,85.1,28,182,22.9,Low,Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1018,79,8.74,9.89,67,0,83,1175.7,71,14,30.3,60,98.8,55,80,20.7,Low,Declining GPA; Heavy rainfall,Continue regular monitoring
+ST1019,63,4.55,7.79,75,5,58,900.7,56,3,38.9,98,102.8,58,201,87.6,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1020,42,6.97,5.56,33,4,59,1134.5,40,1,26.7,62,49.8,31,27,71.1,High,Low attendance; Low assignment completion; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1021,61,4.35,7.8,89,4,74,1321.1,67,6,24.2,79,10.7,87,48,78.7,High,Low attendance; Declining GPA; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1022,92,7.3,7.24,86,4,86,586.7,72,12,22.8,45,52.5,66,114,37.7,Low,Backlogs,Continue regular monitoring
+ST1023,41,6.65,8.68,74,2,41,421.1,48,14,26.6,68,27.7,23,60,52.5,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1024,63,9.33,4.64,49,4,69,1257.0,93,8,37.2,75,34.9,53,177,41.7,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1025,83,6.11,8.57,46,2,92,1070.7,35,6,30.4,76,92.7,25,233,54.5,Medium,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1026,69,4.7,7.25,100,0,73,1169.6,75,11,25.0,73,9.1,86,168,45.9,Medium,Low attendance; Declining GPA; High water level,Monitor performance and attendance
+ST1027,77,4.86,9.78,33,0,61,1322.0,71,5,23.7,38,99.3,21,223,58.5,Medium,Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1028,41,8.57,6.05,43,5,42,1283.1,94,15,27.3,79,51.3,64,30,63.1,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1029,99,7.71,7.8,32,0,45,1457.0,88,14,40.7,89,71.5,60,21,22.7,Low,Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1030,60,4.61,9.59,87,5,54,989.5,81,9,27.5,44,10.8,48,197,75.9,High,Low attendance; Declining GPA; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1031,72,4.5,4.62,84,1,66,937.3,76,0,41.7,65,40.5,42,188,48.7,Medium,Low attendance,Monitor performance and attendance
+ST1032,51,8.21,9.62,33,1,49,842.1,36,10,30.7,92,10.8,42,213,40.2,Medium,Low attendance; Declining GPA; Low assignment completion,Monitor performance and attendance
+ST1033,97,4.44,8.13,53,3,48,569.1,40,9,23.9,98,115.4,38,245,71.4,High,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1034,61,8.93,4.41,63,5,72,1029.9,90,8,39.6,70,96.9,78,150,60.3,Medium,Low attendance; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1035,100,8.24,5.81,59,3,71,704.7,97,4,30.1,53,55.2,79,99,31.8,Low,Low assignment completion; Backlogs; High water level,Continue regular monitoring
+ST1036,83,4.49,8.25,48,3,87,1413.4,54,15,35.6,78,26.8,40,198,64.9,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1037,64,4.51,4.4,60,1,45,1041.5,41,10,41.6,47,112.0,89,215,77.5,High,Low attendance; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1038,88,9.92,7.49,89,5,80,1052.1,55,4,21.1,36,41.4,40,106,24.8,Low,Backlogs,Continue regular monitoring
+ST1039,66,6.25,6.08,89,1,98,790.4,41,5,22.1,33,19.3,98,231,49.3,Medium,Low attendance; High water level,Monitor performance and attendance
+ST1040,98,6.22,7.73,48,3,75,457.2,72,8,35.9,98,67.6,55,172,47.9,Medium,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1041,81,8.88,4.27,78,5,98,434.9,80,12,26.2,89,113.3,86,177,57.1,Medium,Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1042,67,9.68,9.23,92,3,99,865.7,66,7,24.1,84,0.5,61,229,21.8,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1043,99,9.92,9.84,51,4,41,493.0,75,7,20.9,45,28.6,19,125,23.2,Low,Low assignment completion; Backlogs,Continue regular monitoring
+ST1044,55,8.52,9.81,53,5,68,1067.5,82,13,20.5,58,112.6,97,158,80.1,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1045,54,6.26,8.5,59,5,43,1369.1,42,7,37.0,52,20.5,83,240,77.9,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1046,86,4.5,4.78,87,3,40,1371.2,83,0,23.0,43,13.6,50,36,54.8,Medium,Backlogs,Monitor performance and attendance
+ST1047,90,8.66,8.55,60,4,58,1124.9,86,0,30.3,78,68.4,86,173,43.2,Medium,Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1048,83,7.35,4.15,93,2,65,632.4,33,7,33.3,62,103.4,12,42,36.9,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1049,94,6.55,4.13,48,1,64,1349.3,78,4,29.4,54,57.3,68,203,33.1,Low,Low assignment completion,Continue regular monitoring
+ST1050,91,9.44,5.94,77,3,49,1374.7,36,8,20.6,50,119.3,61,199,31.4,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1051,96,4.67,6.93,74,5,92,616.3,40,1,37.2,46,81.5,43,67,69.7,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1052,42,6.96,8.62,84,1,54,1211.2,83,15,20.2,52,8.9,58,39,41.5,Medium,Low attendance; Declining GPA,Monitor performance and attendance
+ST1053,76,4.07,8.1,84,1,98,715.2,74,8,36.8,86,119.1,37,21,63.8,Medium,Declining GPA; Heavy rainfall,Monitor performance and attendance
+ST1054,90,6.81,6.68,47,1,61,1282.9,52,11,39.7,87,48.9,92,107,42.9,Medium,Low assignment completion; High water level,Monitor performance and attendance
+ST1055,46,4.34,5.64,92,2,90,1497.0,57,13,29.5,43,34.5,96,50,75.7,High,Low attendance; Declining GPA; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1056,60,4.71,9.98,76,0,87,433.0,86,7,31.8,49,66.9,22,174,49.0,Medium,Low attendance; Declining GPA; Heavy rainfall,Monitor performance and attendance
+ST1057,48,4.71,6.56,86,3,60,1387.1,55,8,30.5,59,36.5,78,149,71.4,High,Low attendance; Declining GPA; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1058,78,7.9,6.71,74,0,98,1084.9,54,3,28.6,48,10.4,76,97,19.8,Low,High water level,Continue regular monitoring
+ST1059,57,8.48,4.98,62,0,95,1470.7,83,0,39.5,82,0.2,70,23,23.3,Low,Low attendance,Continue regular monitoring
+ST1060,43,7.5,8.77,46,0,61,911.5,58,0,39.7,85,54.0,69,160,39.6,Low,Low attendance; Declining GPA; Low assignment completion,Continue regular monitoring
+ST1061,64,9.77,8.16,99,1,75,1332.1,65,4,27.4,52,100.4,80,247,22.3,Low,Low attendance; Heavy rainfall; High water level,Continue regular monitoring
+ST1062,99,6.25,5.32,33,4,73,468.6,43,1,33.5,91,68.7,33,182,57.0,Medium,Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1063,53,5.71,4.49,49,1,69,768.8,64,15,40.4,62,119.9,72,147,69.2,Medium,Low attendance; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1064,89,9.21,8.08,76,1,64,473.7,59,13,41.2,47,34.4,95,219,19.9,Low,High water level,Continue regular monitoring
+ST1065,97,5.34,7.93,44,5,84,1472.9,46,7,31.2,62,33.7,70,213,66.2,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1066,48,9.78,5.64,99,5,67,1298.7,96,9,30.0,61,19.2,32,153,38.7,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1067,65,4.07,9.71,76,0,40,1337.8,59,10,26.1,90,19.7,39,50,50.4,Medium,Low attendance; Declining GPA,Monitor performance and attendance
+ST1068,92,9.82,4.91,38,1,88,1431.8,74,4,41.1,83,34.2,69,157,11.5,Low,Low assignment completion,Continue regular monitoring
+ST1069,41,4.26,6.59,45,0,84,493.6,80,4,23.1,46,95.1,27,40,73.0,High,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1070,59,9.35,9.66,98,5,43,824.2,76,1,32.8,48,108.7,65,221,49.0,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1071,67,7.17,6.52,90,4,46,478.1,82,6,26.2,99,117.0,62,42,60.1,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1072,86,9.96,7.83,39,3,88,631.9,93,12,26.1,63,27.9,16,150,24.5,Low,Low assignment completion; Backlogs,Continue regular monitoring
+ST1073,99,4.44,6.39,79,0,48,652.3,67,7,28.9,54,105.8,78,179,48.1,Medium,Declining GPA; Heavy rainfall; High water level,Monitor performance and attendance
+ST1074,46,7.32,5.65,32,4,75,916.0,93,9,42.0,97,39.4,81,167,72.1,High,Low attendance; Low assignment completion; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1075,83,9.82,9.9,99,3,58,695.4,36,12,21.2,40,13.5,88,221,21.3,Low,Backlogs; High water level,Continue regular monitoring
+ST1076,100,7.14,6.46,80,2,40,511.1,51,0,32.7,45,104.4,61,48,35.2,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1077,47,7.78,9.36,48,0,49,584.2,70,1,21.8,90,76.3,13,124,39.2,Low,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1078,86,8.17,5.38,71,0,75,562.0,39,9,23.4,36,19.8,43,71,12.7,Low,No major risk factors,Continue regular monitoring
+ST1079,74,6.73,5.28,64,2,48,1470.4,86,15,29.7,45,51.6,78,134,45.3,Medium,Low attendance; Backlogs; High water level,Monitor performance and attendance
+ST1080,53,7.77,4.19,75,2,84,1235.2,36,3,31.2,45,34.5,42,193,39.3,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1081,56,7.51,7.91,55,0,85,1464.5,79,4,25.7,69,88.4,78,181,42.6,Medium,Low attendance; Low assignment completion; Heavy rainfall; High water level,Monitor performance and attendance
+ST1082,75,9.41,6.21,98,2,81,883.7,81,12,27.0,41,54.4,47,120,13.4,Low,Backlogs,Continue regular monitoring
+ST1083,89,4.27,9.19,93,1,71,706.2,62,1,21.9,64,118.7,35,103,55.3,Medium,Declining GPA; Heavy rainfall,Monitor performance and attendance
+ST1084,79,5.69,6.84,66,3,71,1278.1,30,0,26.7,50,6.6,10,80,53.3,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1085,43,9.7,9.81,78,3,45,758.9,82,8,41.3,79,42.6,13,144,33.9,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1086,41,9.34,5.11,50,3,87,729.3,89,13,40.8,72,57.8,48,219,43.7,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1087,45,6.73,9.21,93,1,77,655.8,63,0,27.4,46,60.4,63,90,40.2,Medium,Low attendance; Declining GPA; Heavy rainfall,Monitor performance and attendance
+ST1088,93,7.72,8.66,34,2,56,542.6,33,12,32.6,61,37.9,99,89,47.0,Medium,Declining GPA; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1089,81,5.66,8.63,99,4,49,682.1,46,14,40.0,70,87.5,42,158,57.5,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1090,43,5.13,9.07,33,2,89,790.9,33,3,20.1,35,105.0,42,127,82.7,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1091,93,6.78,8.57,68,0,66,1141.4,72,1,37.8,56,112.6,81,229,38.1,Low,Declining GPA; Heavy rainfall; High water level,Continue regular monitoring
+ST1092,68,6.12,7.76,64,5,93,468.8,33,10,40.9,49,96.6,29,240,75.0,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1093,57,7.5,4.79,30,3,89,631.6,30,3,22.0,54,102.1,25,236,65.6,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1094,65,4.47,4.2,53,2,74,1289.9,100,7,23.6,95,66.1,30,210,66.0,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1095,83,9.85,9.53,86,4,91,561.6,79,7,41.1,38,99.1,54,40,30.7,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1096,73,9.92,7.7,99,0,98,776.9,90,14,31.8,82,36.4,99,150,11.2,Low,Low attendance; High water level,Continue regular monitoring
+ST1097,49,8.19,8.78,70,1,60,1351.1,64,10,20.3,90,47.8,96,101,44.5,Medium,Low attendance; Declining GPA; High water level,Monitor performance and attendance
+ST1098,75,7.22,6.89,83,1,64,570.4,37,11,25.7,67,38.0,91,107,36.8,Low,High water level,Continue regular monitoring
+ST1099,53,5.86,4.7,75,4,67,491.0,53,8,29.9,32,56.1,71,130,66.2,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1100,70,8.88,4.75,89,0,86,933.0,65,12,35.2,99,34.3,40,249,9.3,Low,Low attendance,Continue regular monitoring
+ST1101,87,8.11,8.11,89,3,54,732.7,79,14,36.1,84,115.4,51,29,39.3,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1102,54,4.98,6.58,86,2,43,1019.7,72,10,41.9,30,37.5,21,174,57.5,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1103,47,9.47,5.2,60,0,68,1284.2,56,14,26.3,99,11.8,74,31,21.9,Low,Low attendance,Continue regular monitoring
+ST1104,53,8.94,6.95,53,1,98,550.9,61,11,31.8,74,63.2,82,26,35.6,Low,Low attendance; Low assignment completion; Heavy rainfall; High water level,Continue regular monitoring
+ST1105,62,9.7,4.39,65,4,48,1038.8,47,4,31.7,76,6.9,12,164,35.7,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1106,99,8.35,7.49,59,4,66,956.1,57,6,28.9,55,13.3,99,212,46.4,Medium,Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1107,96,7.68,5.61,53,2,65,558.5,58,2,23.7,43,26.3,18,211,28.7,Low,Low assignment completion; Backlogs,Continue regular monitoring
+ST1108,79,6.51,8.79,59,4,58,1086.4,45,9,41.5,83,55.7,60,133,54.7,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1109,60,9.6,5.86,36,4,95,701.0,76,3,38.8,100,52.0,25,45,43.8,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1110,55,9.2,6.73,64,0,67,936.6,88,9,31.0,75,96.0,97,34,38.6,Low,Low attendance; Heavy rainfall; High water level,Continue regular monitoring
+ST1111,84,4.27,4.07,84,3,56,490.5,60,8,33.3,60,88.7,87,52,72.2,High,Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1112,57,4.16,4.43,43,2,82,905.5,33,9,25.0,88,51.2,12,81,72.3,High,Low attendance; Low assignment completion; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1113,86,6.26,6.35,39,0,96,737.1,66,9,32.0,58,40.0,33,248,34.3,Low,Low assignment completion,Continue regular monitoring
+ST1114,92,8.86,6.88,45,3,80,1304.6,46,13,35.3,46,38.0,82,66,34.6,Low,Low assignment completion; Backlogs; High water level,Continue regular monitoring
+ST1115,63,9.92,7.6,83,0,81,462.7,68,11,31.3,43,92.9,22,114,12.9,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1116,65,4.9,5.75,99,5,89,860.5,77,0,41.8,65,6.2,11,54,69.1,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1117,64,7.56,8.17,73,0,59,904.3,75,1,33.4,87,1.5,80,212,29.6,Low,Low attendance; Declining GPA; High water level,Continue regular monitoring
+ST1118,99,6.29,9.16,74,4,84,1197.5,77,15,28.2,53,95.5,30,219,53.5,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1119,99,9.82,8.68,85,3,79,1031.7,68,4,37.0,92,57.3,28,95,10.3,Low,Backlogs,Continue regular monitoring
+ST1120,99,9.05,4.24,86,2,78,1133.9,33,2,23.8,54,15.7,98,142,22.5,Low,Backlogs; High water level,Continue regular monitoring
+ST1121,84,9.03,6.88,50,2,88,1254.8,59,1,28.5,88,28.3,56,102,23.8,Low,Low assignment completion; Backlogs,Continue regular monitoring
+ST1122,80,6.81,4.63,97,3,92,1348.4,59,0,27.6,61,111.9,31,44,49.2,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1123,68,6.49,5.45,79,4,62,745.3,51,9,29.5,47,103.1,84,76,70.6,High,Low attendance; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1124,54,5.64,9.92,62,1,86,991.8,95,2,37.2,66,85.2,42,51,57.6,Medium,Low attendance; Declining GPA; Heavy rainfall,Monitor performance and attendance
+ST1125,84,4.34,4.85,36,0,71,1324.1,41,0,30.7,55,57.9,41,82,50.2,Medium,Declining GPA; Low assignment completion,Monitor performance and attendance
+ST1126,40,9.19,6.99,99,4,91,1488.4,65,11,37.5,38,62.4,73,31,42.0,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1127,64,8.88,7.71,44,5,86,1378.5,47,0,32.7,93,117.0,94,82,75.7,High,Low attendance; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1128,46,10.0,8.21,61,3,72,808.6,82,11,27.5,49,115.9,48,96,47.0,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1129,48,9.98,7.36,49,0,96,614.7,100,0,37.8,83,25.8,93,111,28.7,Low,Low attendance; Low assignment completion; High water level,Continue regular monitoring
+ST1130,63,7.33,4.06,44,2,85,938.3,30,7,25.2,59,97.3,81,20,59.3,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1131,40,8.61,5.96,77,1,44,1215.8,87,14,24.9,82,23.7,51,198,31.4,Low,Low attendance,Continue regular monitoring
+ST1132,83,9.67,7.11,100,5,82,941.8,35,2,31.1,92,25.6,18,89,26.1,Low,Backlogs,Continue regular monitoring
+ST1133,47,9.1,4.53,50,2,87,931.5,99,10,25.7,40,81.1,34,155,42.0,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1134,63,5.48,6.1,71,3,73,1322.1,73,0,20.2,60,48.6,98,215,72.4,High,Low attendance; Declining GPA; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1135,50,6.7,4.2,55,0,79,797.5,53,6,34.3,78,111.8,11,152,52.7,Medium,Low attendance; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1136,90,4.77,4.47,43,3,50,1345.8,48,9,31.2,48,10.7,28,236,61.3,Medium,Low assignment completion; Backlogs,Monitor performance and attendance
+ST1137,56,9.72,6.38,86,0,100,847.5,47,2,29.8,41,61.4,29,105,9.2,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1138,47,7.64,4.8,66,4,89,761.1,59,7,41.3,44,110.2,79,239,72.1,High,Low attendance; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1139,74,5.37,7.41,87,1,42,899.4,71,3,32.6,60,108.5,26,58,51.7,Medium,Low attendance; Declining GPA; Heavy rainfall,Monitor performance and attendance
+ST1140,74,8.03,8.14,50,4,97,1238.7,62,3,39.0,72,18.8,98,42,59.8,Medium,Low attendance; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1141,72,7.71,8.8,98,4,72,538.6,41,4,23.1,66,44.0,77,87,42.6,Medium,Low attendance; Declining GPA; Backlogs; High water level,Monitor performance and attendance
+ST1142,98,6.15,5.2,32,3,50,616.1,56,5,32.5,58,74.3,93,199,64.0,Medium,Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1143,44,4.68,5.0,66,1,55,1446.6,68,6,39.1,55,19.1,12,23,62.0,Medium,Low attendance,Monitor performance and attendance
+ST1144,81,8.03,4.63,78,0,57,593.0,38,13,32.8,31,116.2,96,145,38.5,Low,Heavy rainfall; High water level,Continue regular monitoring
+ST1145,78,7.12,7.82,48,0,69,1024.5,50,13,35.8,44,109.8,60,194,40.1,Medium,Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1146,97,8.63,8.24,41,5,87,1037.2,58,3,28.2,33,20.0,91,40,51.5,Medium,Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1147,80,7.12,4.19,90,2,94,938.6,62,15,22.0,79,14.5,35,248,30.6,Low,Backlogs,Continue regular monitoring
+ST1148,67,9.11,9.62,70,5,49,1109.2,91,7,30.1,67,10.2,65,203,43.2,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1149,46,7.31,4.31,62,5,57,652.8,44,12,28.7,52,109.1,73,124,78.9,High,Low attendance; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1150,48,7.37,7.25,79,0,77,1007.9,31,5,39.1,88,23.2,17,85,31.2,Low,Low attendance,Continue regular monitoring
+ST1151,47,9.26,8.25,97,3,58,809.4,81,13,25.4,57,50.0,90,206,40.4,Medium,Low attendance; Backlogs; High water level,Monitor performance and attendance
+ST1152,51,6.42,9.23,100,4,75,1127.8,73,0,41.3,95,53.9,46,26,56.7,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1153,73,4.8,8.28,62,4,98,555.3,83,0,41.1,37,71.9,36,68,71.9,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1154,72,4.17,8.81,53,4,52,1028.0,47,8,25.4,58,8.6,54,35,76.3,High,Low attendance; Declining GPA; Low assignment completion; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1155,87,8.53,6.04,90,1,95,603.8,32,9,27.7,40,27.2,13,164,11.3,Low,No major risk factors,Continue regular monitoring
+ST1156,94,7.72,8.89,90,0,85,706.5,36,5,39.7,47,111.8,95,103,31.8,Low,Declining GPA; Heavy rainfall; High water level,Continue regular monitoring
+ST1157,62,8.22,4.48,57,3,42,640.6,72,15,41.3,84,109.0,99,106,66.8,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1158,63,5.28,9.37,87,1,49,601.1,67,15,29.8,79,93.8,97,117,65.4,Medium,Low attendance; Declining GPA; Heavy rainfall; High water level,Monitor performance and attendance
+ST1159,76,4.82,7.29,72,2,77,1308.3,66,9,27.1,43,2.3,46,94,53.6,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1160,74,4.09,8.9,70,3,40,714.3,87,7,31.6,38,39.2,80,53,70.8,High,Low attendance; Declining GPA; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1161,83,6.1,6.71,68,5,94,1419.8,62,12,35.1,40,75.4,42,180,63.8,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1162,79,7.54,7.86,78,3,95,1466.9,88,6,26.0,92,33.0,40,45,36.6,Low,Backlogs,Continue regular monitoring
+ST1163,61,6.35,7.16,46,3,66,1028.4,40,11,36.2,96,109.2,64,85,70.7,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1164,66,6.62,8.39,99,4,85,557.3,97,5,21.1,82,76.1,21,144,53.4,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1165,74,9.42,4.49,99,3,47,812.0,97,15,21.1,68,8.6,20,82,19.5,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1166,40,6.09,4.36,94,5,90,1277.5,51,3,28.5,85,109.1,97,106,94.0,High,Low attendance; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1167,74,7.08,5.48,34,5,85,804.1,95,15,27.8,57,114.9,81,60,81.4,High,Low attendance; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1168,76,8.7,4.96,31,0,81,495.7,73,6,26.9,68,9.3,41,233,21.5,Low,Low assignment completion,Continue regular monitoring
+ST1169,86,6.38,9.23,51,3,56,1012.5,35,8,30.8,54,63.9,66,205,49.7,Medium,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1170,53,7.73,5.32,86,4,48,1329.6,71,13,27.1,50,36.4,47,117,49.2,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1171,42,9.17,9.86,95,3,100,1275.5,54,10,24.2,39,47.1,69,143,34.4,Low,Low attendance; Declining GPA; Backlogs,Continue regular monitoring
+ST1172,40,9.7,6.02,45,2,45,592.6,86,9,26.8,72,21.6,95,98,47.8,Medium,Low attendance; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1173,44,4.88,5.09,80,2,82,1140.0,84,9,41.4,44,69.4,28,29,65.5,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1174,65,9.56,8.74,68,4,64,642.6,45,13,29.0,77,115.0,93,34,57.8,Medium,Low attendance; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1175,94,6.95,7.95,69,0,78,640.0,43,6,29.8,50,60.4,65,61,19.4,Low,Declining GPA; Heavy rainfall,Continue regular monitoring
+ST1176,53,5.55,6.99,67,0,88,1361.5,68,0,32.7,89,9.9,23,112,45.8,Medium,Low attendance; Declining GPA,Monitor performance and attendance
+ST1177,78,6.75,7.33,89,5,99,674.6,57,9,41.6,79,74.4,42,204,55.8,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1178,66,9.88,8.32,88,5,67,689.6,80,8,25.3,52,40.8,19,234,33.6,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1179,48,6.96,5.37,39,1,72,400.7,78,12,35.0,42,102.7,89,36,67.7,Medium,Low attendance; Low assignment completion; Heavy rainfall; High water level,Monitor performance and attendance
+ST1180,54,5.97,9.98,93,4,93,1357.7,38,3,35.8,98,52.2,73,207,61.9,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1181,54,7.8,9.85,92,3,76,1271.9,87,14,33.4,33,23.1,73,28,42.2,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1182,65,5.44,7.9,78,4,48,1090.1,74,2,21.9,38,22.9,71,133,64.2,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1183,81,4.46,5.2,93,1,57,1225.3,51,3,34.9,64,92.3,77,55,54.1,Medium,Declining GPA; Heavy rainfall; High water level,Monitor performance and attendance
+ST1184,99,4.77,8.08,61,5,95,567.3,61,3,21.4,50,31.9,100,220,79.4,High,Declining GPA; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1185,52,4.77,4.43,36,4,98,904.2,98,12,33.1,87,92.1,52,227,90.5,High,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1186,90,4.91,4.18,50,4,60,786.3,98,9,36.3,47,24.7,89,55,73.3,High,Low assignment completion; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1187,71,4.83,5.55,49,5,41,503.2,71,10,24.6,72,38.6,68,67,78.7,High,Low attendance; Declining GPA; Low assignment completion; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1188,78,7.85,6.78,55,1,100,934.7,82,1,38.5,35,55.9,61,70,27.8,Low,Low assignment completion,Continue regular monitoring
+ST1189,88,5.09,9.21,97,5,97,1412.8,88,13,20.7,96,113.2,28,116,71.5,High,Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1190,91,6.07,8.36,44,0,82,444.1,68,11,38.6,41,111.8,30,138,44.5,Medium,Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1191,100,9.38,8.46,43,3,98,720.6,44,13,30.1,41,24.8,31,114,22.7,Low,Low assignment completion; Backlogs,Continue regular monitoring
+ST1192,71,6.84,6.55,56,5,99,628.3,100,0,24.8,95,43.0,18,89,61.9,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1193,43,8.01,6.08,69,1,77,662.0,58,11,22.9,31,17.9,18,93,36.6,Low,Low attendance,Continue regular monitoring
+ST1194,69,5.03,6.23,87,2,97,1399.3,32,9,41.0,44,61.2,82,99,56.9,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1195,76,5.15,9.93,57,0,79,914.9,39,11,21.6,52,55.3,36,87,42.4,Medium,Declining GPA; Low assignment completion,Monitor performance and attendance
+ST1196,62,4.25,4.24,55,2,75,912.9,58,0,24.4,58,108.1,26,169,77.9,High,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1197,78,5.01,9.2,92,5,89,1236.6,64,12,27.7,36,111.6,53,96,76.6,High,Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1198,84,5.67,7.47,95,0,99,569.9,35,13,33.6,57,46.0,54,227,26.9,Low,Declining GPA,Continue regular monitoring
+ST1199,54,5.06,6.63,54,3,82,936.0,41,7,32.0,43,59.0,17,135,70.2,High,Low attendance; Declining GPA; Low assignment completion; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1200,82,4.53,8.35,32,5,76,873.0,67,13,22.8,73,107.5,89,240,100.0,High,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1201,68,4.72,6.92,73,3,54,1056.6,48,1,26.4,59,96.8,27,25,71.5,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1202,75,6.76,9.24,71,4,67,1499.5,96,11,25.3,61,0.4,42,173,51.6,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1203,52,5.24,9.4,35,2,57,1246.4,37,9,24.7,99,38.4,10,94,67.8,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1204,71,6.19,6.53,68,0,73,837.7,37,4,29.0,35,50.6,85,107,40.7,Medium,Low attendance; High water level,Monitor performance and attendance
+ST1205,46,7.02,5.66,81,3,61,1310.3,76,11,35.5,56,27.6,15,240,52.3,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1206,98,8.14,7.55,52,1,50,587.8,33,15,24.8,53,23.9,50,22,18.7,Low,Low assignment completion,Continue regular monitoring
+ST1207,90,4.24,9.47,79,3,97,433.5,80,3,28.1,63,4.5,64,71,57.1,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1208,61,8.8,5.26,72,1,96,624.9,96,7,28.6,69,77.2,14,93,27.1,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1209,67,7.77,7.74,48,5,52,774.5,74,1,41.5,76,31.5,68,144,58.2,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1210,41,4.49,7.79,98,0,43,961.6,37,9,41.0,53,6.3,89,207,59.9,Medium,Low attendance; Declining GPA; High water level,Monitor performance and attendance
+ST1211,81,9.24,8.4,80,3,61,1076.6,45,8,37.6,94,27.7,27,210,22.6,Low,Backlogs,Continue regular monitoring
+ST1212,84,9.53,4.79,40,3,46,1401.7,96,6,25.3,47,96.2,58,84,36.5,Low,Low assignment completion; Backlogs; Heavy rainfall,Continue regular monitoring
+ST1213,96,4.37,8.29,41,0,100,960.8,38,14,21.5,73,102.2,91,71,63.4,Medium,Declining GPA; Low assignment completion; Heavy rainfall; High water level,Monitor performance and attendance
+ST1214,92,5.66,9.45,37,3,82,951.4,89,12,27.0,86,58.0,74,237,57.0,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1215,45,8.84,5.08,53,1,93,455.3,100,6,25.9,57,49.9,92,95,43.2,Medium,Low attendance; Low assignment completion; High water level,Monitor performance and attendance
+ST1216,67,8.49,5.43,70,3,63,438.4,44,0,31.1,100,117.3,63,161,48.7,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1217,67,5.11,9.83,65,2,43,1006.3,100,13,37.1,52,24.1,70,108,56.4,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1218,83,5.26,5.09,84,5,67,882.0,70,15,38.9,63,25.8,17,91,63.0,Medium,Backlogs,Monitor performance and attendance
+ST1219,83,6.22,9.13,38,4,54,1323.1,51,11,38.6,40,35.0,12,87,60.1,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1220,59,6.91,6.95,76,1,40,576.7,53,1,27.9,64,20.7,34,175,37.3,Low,Low attendance,Continue regular monitoring
+ST1221,69,7.71,5.48,44,2,94,427.5,73,3,35.1,71,45.5,78,218,44.4,Medium,Low attendance; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1222,50,6.21,9.22,77,5,42,893.9,30,3,26.9,57,109.3,64,157,81.0,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1223,97,6.78,6.67,71,0,53,661.2,39,10,21.3,53,73.8,49,134,22.1,Low,Heavy rainfall,Continue regular monitoring
+ST1224,94,8.48,7.09,89,1,77,454.6,85,13,35.4,37,49.4,92,76,19.2,Low,High water level,Continue regular monitoring
+ST1225,67,4.22,6.16,99,4,89,1197.1,79,2,20.2,82,112.1,91,247,88.7,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1226,64,5.51,7.56,41,5,96,522.8,41,6,29.0,33,5.8,59,85,78.0,High,Low attendance; Declining GPA; Low assignment completion; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1227,78,8.28,4.98,31,4,40,1069.2,89,11,27.2,34,25.2,42,109,48.1,Medium,Low assignment completion; Backlogs,Monitor performance and attendance
+ST1228,72,9.37,6.35,36,0,77,709.2,55,7,35.3,78,67.9,27,69,18.6,Low,Low attendance; Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1229,40,7.07,9.82,32,0,77,590.8,70,1,36.9,59,73.9,66,33,50.3,Medium,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1230,96,7.19,5.55,32,1,60,817.7,65,15,26.7,92,4.7,25,35,31.2,Low,Low assignment completion,Continue regular monitoring
+ST1231,66,4.64,7.94,56,3,87,1281.6,52,3,37.9,76,48.4,89,201,77.0,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1232,96,6.68,5.95,69,0,68,831.3,72,13,26.5,55,77.9,47,190,24.6,Low,Heavy rainfall,Continue regular monitoring
+ST1233,91,7.2,8.64,62,5,44,1225.8,35,15,29.8,86,83.8,50,61,55.7,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1234,52,5.45,4.79,30,3,88,538.0,98,2,36.0,66,76.6,16,228,77.2,High,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1235,80,5.62,9.82,37,2,49,1250.0,72,1,35.2,36,38.5,87,129,61.6,Medium,Declining GPA; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1236,42,6.26,6.72,61,4,67,660.6,54,11,41.7,69,11.2,62,41,70.1,High,Low attendance; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1237,78,4.12,5.42,77,3,60,1145.1,47,12,25.0,68,51.3,72,87,63.9,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1238,45,5.93,4.44,33,4,89,1022.4,91,13,34.6,91,15.5,98,38,90.5,High,Low attendance; Low assignment completion; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1239,47,5.27,5.02,99,3,46,1422.1,42,5,33.4,82,113.7,41,85,73.2,High,Low attendance; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1240,66,5.96,7.12,48,2,42,826.1,72,12,40.1,33,57.0,47,186,54.2,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1241,48,4.72,6.02,61,0,84,472.8,57,15,23.4,54,38.1,31,92,55.3,Medium,Low attendance; Declining GPA,Monitor performance and attendance
+ST1242,76,9.34,8.97,38,2,86,421.1,47,3,36.5,36,92.0,25,166,34.4,Low,Low assignment completion; Backlogs; Heavy rainfall,Continue regular monitoring
+ST1243,72,7.56,6.59,41,0,59,1309.5,88,5,32.5,57,59.8,61,163,29.3,Low,Low attendance; Low assignment completion,Continue regular monitoring
+ST1244,90,8.07,5.49,40,0,58,977.2,89,1,26.0,98,37.2,38,73,18.9,Low,Low assignment completion,Continue regular monitoring
+ST1245,81,8.74,7.7,75,4,74,1252.8,92,11,30.4,96,97.4,25,172,42.0,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1246,83,6.99,8.24,45,5,43,657.9,86,3,27.3,49,104.1,85,131,75.5,High,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1247,63,4.52,5.0,30,2,44,779.6,80,10,32.7,40,80.8,26,37,74.9,High,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1248,54,7.22,5.01,92,3,40,433.1,85,5,39.6,96,5.6,73,170,46.6,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1249,98,7.52,4.22,50,2,43,1457.6,56,13,32.5,36,68.0,100,136,45.3,Medium,Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1250,93,8.47,8.42,59,4,51,1134.7,61,4,33.9,52,91.6,98,104,54.5,Medium,Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1251,71,6.59,7.98,42,0,99,1426.5,38,2,31.4,90,16.4,22,158,36.8,Low,Low attendance; Declining GPA; Low assignment completion,Continue regular monitoring
+ST1252,71,4.77,6.85,63,4,66,692.0,97,7,21.1,100,27.4,81,58,74.9,High,Low attendance; Declining GPA; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1253,63,5.7,9.07,33,1,95,1072.6,75,6,25.1,63,105.9,65,124,65.0,Medium,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1254,80,6.18,8.83,57,1,81,1146.3,96,15,30.8,48,2.4,14,87,39.2,Low,Declining GPA; Low assignment completion,Continue regular monitoring
+ST1255,91,7.88,7.51,88,3,62,749.3,55,15,26.8,87,90.3,21,44,34.1,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1256,88,7.42,9.21,56,4,64,1332.9,37,2,24.0,38,56.9,50,210,45.1,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1257,88,6.14,5.24,98,3,60,1441.9,35,5,31.1,77,53.6,12,243,39.2,Low,Backlogs,Continue regular monitoring
+ST1258,97,9.92,4.67,54,3,100,1373.3,53,3,27.1,70,0.9,42,177,17.3,Low,Low assignment completion; Backlogs,Continue regular monitoring
+ST1259,91,7.63,5.62,32,1,97,1213.0,77,10,25.7,77,98.3,95,192,49.7,Medium,Low assignment completion; Heavy rainfall; High water level,Monitor performance and attendance
+ST1260,51,5.42,4.34,97,3,91,705.2,74,4,30.2,74,43.2,59,142,58.8,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1261,78,4.61,7.19,54,1,63,709.8,42,10,22.9,54,64.9,65,237,53.5,Medium,Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1262,41,4.92,9.62,49,0,64,1459.7,98,4,40.4,54,81.3,18,140,64.0,Medium,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1263,42,5.48,4.24,63,4,84,411.3,54,15,39.1,48,84.3,91,80,90.5,High,Low attendance; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1264,88,4.96,4.73,55,3,94,1187.7,49,6,35.6,68,114.7,59,119,70.2,High,Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1265,76,5.12,6.71,34,1,85,1176.9,95,10,22.3,56,63.8,38,70,54.7,Medium,Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1266,88,5.71,9.6,90,2,71,1085.0,74,4,37.1,92,48.0,48,117,38.2,Low,Declining GPA; Backlogs,Continue regular monitoring
+ST1267,95,5.04,5.9,38,3,94,1489.1,76,10,37.8,97,114.4,100,156,84.4,High,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1268,56,9.38,7.04,79,5,71,743.1,92,14,36.9,48,77.1,54,223,47.1,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1269,98,4.48,4.25,35,0,44,774.0,84,15,22.5,57,35.8,26,21,44.1,Medium,Low assignment completion,Monitor performance and attendance
+ST1270,88,7.15,4.89,89,0,75,486.8,48,2,34.2,62,15.2,65,249,15.5,Low,No major risk factors,Continue regular monitoring
+ST1271,41,6.46,9.92,73,2,85,887.1,64,9,38.4,39,101.1,55,24,63.5,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1272,41,9.89,9.79,40,1,81,687.2,82,4,32.7,59,43.5,76,209,32.4,Low,Low attendance; Low assignment completion; High water level,Continue regular monitoring
+ST1273,67,4.67,4.03,95,3,88,777.7,55,6,34.2,51,79.3,78,216,66.9,Medium,Low attendance; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1274,93,6.39,9.71,76,1,81,1318.0,43,4,30.1,32,56.5,23,199,28.4,Low,Declining GPA,Continue regular monitoring
+ST1275,62,9.82,7.83,32,0,97,1429.0,74,4,31.6,77,23.9,76,105,20.8,Low,Low attendance; Low assignment completion; High water level,Continue regular monitoring
+ST1276,76,9.19,9.21,59,1,78,604.3,73,8,20.8,31,72.2,32,152,20.3,Low,Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1277,71,8.9,6.73,50,0,55,809.8,94,14,34.1,83,7.3,70,206,17.6,Low,Low attendance; Low assignment completion,Continue regular monitoring
+ST1278,72,5.55,7.09,57,1,72,1421.5,80,2,21.8,35,49.6,32,87,46.9,Medium,Low attendance; Declining GPA; Low assignment completion,Monitor performance and attendance
+ST1279,40,5.03,6.93,91,2,88,468.0,72,12,29.6,69,65.6,36,28,62.5,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1280,58,8.01,8.0,62,4,60,501.6,52,5,26.4,31,52.3,63,112,50.6,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1281,41,9.58,4.84,64,2,100,579.1,85,0,32.0,31,89.8,19,169,39.4,Low,Low attendance; Backlogs; Heavy rainfall,Continue regular monitoring
+ST1282,92,7.34,4.18,81,2,48,1054.7,48,9,22.9,84,99.4,98,174,48.1,Medium,Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1283,83,7.43,5.85,63,4,45,565.5,84,4,35.2,89,92.5,86,157,59.9,Medium,Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1284,65,5.68,8.23,70,4,90,1464.9,89,7,37.5,35,4.7,25,227,63.7,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1285,71,8.62,5.21,80,3,84,891.4,88,4,23.6,48,23.3,50,144,31.0,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1286,45,5.12,8.04,76,3,74,951.7,62,8,22.3,56,64.4,64,80,69.1,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1287,71,5.94,9.82,87,2,78,671.3,48,10,23.2,30,112.2,70,70,55.4,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1288,94,6.55,4.56,86,2,61,918.1,57,5,39.3,62,100.2,95,29,51.0,Medium,Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1289,43,7.05,8.04,52,0,80,1128.1,81,7,31.6,69,101.1,90,153,60.0,Medium,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall; High water level,Monitor performance and attendance
+ST1290,94,5.45,6.66,77,0,93,1226.3,78,9,30.3,61,36.4,96,81,40.6,Medium,Declining GPA; High water level,Monitor performance and attendance
+ST1291,50,4.69,9.21,51,3,44,1229.3,66,7,22.3,98,51.5,58,132,75.1,High,Low attendance; Declining GPA; Low assignment completion; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1292,95,7.66,5.06,46,5,81,1035.7,55,12,34.3,46,56.5,82,152,54.4,Medium,Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1293,98,5.73,8.16,98,5,62,1394.8,69,2,39.1,37,18.9,61,141,50.6,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1294,56,7.49,9.03,40,3,56,1299.1,67,6,38.2,86,3.7,11,217,54.2,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1295,77,4.93,9.67,44,0,51,1232.8,83,13,33.8,71,113.6,59,210,58.8,Medium,Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1296,63,6.89,8.1,64,0,62,461.2,51,6,21.7,38,28.9,95,142,43.9,Medium,Low attendance; Declining GPA; High water level,Monitor performance and attendance
+ST1297,44,7.2,6.98,62,5,55,407.6,45,13,22.5,64,28.8,52,203,68.0,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1298,91,4.31,7.71,45,1,42,633.7,57,9,21.1,100,10.0,86,206,59.1,Medium,Declining GPA; Low assignment completion; High water level,Monitor performance and attendance
+ST1299,73,6.02,9.21,63,1,69,1129.9,64,11,25.7,82,111.4,17,82,53.3,Medium,Low attendance; Declining GPA; Heavy rainfall,Monitor performance and attendance
+ST1300,45,4.81,7.42,95,0,96,852.3,89,5,23.0,83,69.6,68,130,50.2,Medium,Low attendance; Declining GPA; Heavy rainfall,Monitor performance and attendance
+ST1301,61,4.38,4.18,69,1,61,842.6,74,11,25.7,54,80.0,74,108,63.5,Medium,Low attendance; Heavy rainfall,Monitor performance and attendance
+ST1302,50,9.94,9.59,57,4,48,1373.0,75,6,28.5,96,109.4,90,206,60.4,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1303,87,5.93,8.14,76,3,68,1385.1,84,13,40.7,91,41.5,21,70,46.2,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1304,55,8.86,8.06,68,3,86,1400.1,55,1,33.4,84,74.6,13,197,41.3,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1305,72,5.53,5.29,99,0,76,745.3,54,8,38.4,75,4.7,86,151,38.8,Low,Low attendance; High water level,Continue regular monitoring
+ST1306,48,8.09,7.95,49,2,62,1160.2,94,9,35.6,53,22.4,50,123,44.7,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1307,99,8.56,6.36,30,5,52,698.8,35,9,22.5,75,99.7,16,142,53.3,Medium,Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1308,98,7.57,7.91,92,0,71,609.7,52,0,36.2,51,92.0,96,67,26.9,Low,Heavy rainfall; High water level,Continue regular monitoring
+ST1309,45,6.83,4.64,96,1,85,603.1,93,0,26.1,40,42.1,97,51,50.8,Medium,Low attendance; High water level,Monitor performance and attendance
+ST1310,55,6.47,7.95,33,5,91,776.3,72,2,34.1,77,45.2,78,139,79.6,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1311,68,6.09,10.0,87,2,86,873.0,52,13,27.5,37,64.0,78,198,48.1,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1312,42,9.58,4.29,54,1,87,1314.0,59,14,41.9,68,0.0,90,199,37.6,Low,Low attendance; Low assignment completion; High water level,Continue regular monitoring
+ST1313,59,8.98,9.86,76,4,62,531.9,47,2,25.8,64,28.9,39,118,39.8,Low,Low attendance; Declining GPA; Backlogs,Continue regular monitoring
+ST1314,99,9.79,6.44,67,1,84,1208.4,50,0,26.1,78,25.0,82,93,7.9,Low,High water level,Continue regular monitoring
+ST1315,98,4.75,9.22,44,4,56,984.6,86,11,40.5,75,30.1,15,53,64.2,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1316,75,8.39,8.69,92,5,94,716.7,52,6,20.5,67,96.7,98,183,61.6,Medium,Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1317,58,9.63,7.4,50,4,79,942.1,74,3,35.3,37,33.6,28,89,41.1,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1318,65,5.09,8.43,86,5,60,729.9,73,9,36.0,83,23.0,89,190,79.2,High,Low attendance; Declining GPA; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1319,42,4.4,9.27,82,5,41,1055.7,76,12,38.4,66,60.5,94,129,96.4,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1320,58,8.45,6.42,75,5,76,877.2,69,1,41.4,69,103.9,75,35,62.6,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1321,59,7.45,5.96,43,5,45,580.8,80,9,41.5,63,29.0,19,78,64.8,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1322,71,9.05,8.01,46,5,83,528.2,71,4,21.4,46,9.4,25,200,47.5,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1323,46,4.84,8.85,68,1,57,1001.4,36,5,38.1,62,42.8,46,38,59.6,Medium,Low attendance; Declining GPA,Monitor performance and attendance
+ST1324,91,8.77,8.57,38,5,69,1392.7,79,8,34.2,76,89.7,88,245,58.8,Medium,Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1325,80,5.21,8.79,35,1,61,778.4,77,3,34.2,81,66.1,86,236,60.1,Medium,Declining GPA; Low assignment completion; Heavy rainfall; High water level,Monitor performance and attendance
+ST1326,72,4.98,6.61,52,5,93,1206.3,35,1,22.8,38,98.0,86,114,92.3,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1327,79,4.99,8.91,88,4,72,1124.5,38,4,34.3,62,115.2,41,132,72.1,High,Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1328,78,8.89,4.72,75,5,69,1424.7,86,2,41.6,89,95.1,56,60,47.5,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1329,57,7.99,7.27,67,2,56,1303.1,60,1,40.1,50,72.5,81,100,45.8,Medium,Low attendance; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1330,79,7.14,4.03,43,5,82,1023.3,50,11,29.7,87,59.2,52,194,59.6,Medium,Low assignment completion; Backlogs,Monitor performance and attendance
+ST1331,40,6.15,5.95,91,5,71,1122.7,69,0,20.9,98,4.8,91,241,80.4,High,Low attendance; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1332,50,9.26,6.2,64,4,81,1388.2,74,9,28.0,39,118.1,45,122,56.9,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1333,67,6.35,6.38,48,3,90,839.5,78,1,38.2,35,46.0,35,73,56.9,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1334,96,8.9,8.17,59,4,53,759.5,49,5,35.4,42,18.3,19,202,30.3,Low,Low assignment completion; Backlogs,Continue regular monitoring
+ST1335,64,6.63,6.33,54,2,97,411.9,46,7,30.1,94,80.0,40,114,53.0,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1336,89,6.26,6.69,69,3,49,1309.2,57,12,21.2,49,34.1,38,166,44.5,Medium,Backlogs,Monitor performance and attendance
+ST1337,62,6.78,5.43,43,0,86,1281.1,70,2,29.4,86,70.3,14,81,40.9,Medium,Low attendance; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1338,70,5.81,6.24,55,0,99,514.9,95,10,30.3,75,70.4,86,118,49.7,Medium,Low attendance; Low assignment completion; Heavy rainfall; High water level,Monitor performance and attendance
+ST1339,69,8.49,5.36,51,2,90,1034.5,54,14,40.4,37,53.5,10,112,33.3,Low,Low attendance; Low assignment completion; Backlogs,Continue regular monitoring
+ST1340,81,7.02,4.44,77,4,75,910.4,87,8,34.1,39,100.3,96,206,66.9,Medium,Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1341,74,5.39,7.62,80,1,73,530.6,70,14,26.9,96,31.8,12,84,42.2,Medium,Low attendance; Declining GPA,Monitor performance and attendance
+ST1342,46,9.4,8.01,32,2,48,1478.6,35,11,31.6,40,53.8,76,87,42.1,Medium,Low attendance; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1343,99,6.3,7.72,71,3,81,636.2,67,8,21.5,41,64.5,80,47,45.5,Medium,Declining GPA; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1344,55,7.26,6.78,48,3,67,474.0,35,1,41.4,39,79.6,44,37,59.0,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1345,65,9.44,6.28,57,5,50,1054.3,74,7,27.9,54,94.1,24,45,52.1,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1346,87,7.75,9.18,74,0,53,1212.8,43,9,30.5,78,47.4,76,123,17.5,Low,Declining GPA; High water level,Continue regular monitoring
+ST1347,96,4.7,7.11,100,3,78,435.7,95,10,27.8,78,77.5,39,166,50.6,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1348,91,9.64,6.88,92,2,94,1124.6,69,11,35.0,40,18.1,91,74,16.5,Low,Backlogs; High water level,Continue regular monitoring
+ST1349,99,7.77,4.15,48,3,86,985.5,32,4,34.6,91,111.9,84,138,52.2,Medium,Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1350,88,6.01,6.05,76,2,93,513.6,53,3,35.7,65,46.0,52,143,39.2,Low,Backlogs,Continue regular monitoring
+ST1351,41,4.84,6.28,43,1,58,589.8,48,9,25.9,68,87.5,69,204,73.4,High,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1352,40,8.76,6.39,67,5,93,1024.8,47,4,26.9,82,2.4,49,153,56.7,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1353,87,7.72,7.48,82,0,54,726.0,93,3,22.8,85,24.6,74,148,15.0,Low,No major risk factors,Continue regular monitoring
+ST1354,51,7.2,7.2,90,3,67,1432.1,64,15,34.4,30,58.4,38,27,47.0,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1355,44,9.36,7.65,65,2,63,1300.6,91,7,20.9,85,105.4,83,244,49.1,Medium,Low attendance; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1356,76,8.73,8.59,69,4,47,1481.9,30,3,33.1,33,63.3,28,70,37.6,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1357,71,4.91,8.88,59,0,82,685.6,54,12,39.1,59,111.6,12,104,57.3,Medium,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1358,98,5.87,8.31,38,1,100,1466.7,74,9,39.6,41,58.1,45,235,39.0,Low,Declining GPA; Low assignment completion,Continue regular monitoring
+ST1359,94,5.49,9.73,93,2,48,874.4,78,11,29.9,64,58.9,52,44,37.0,Low,Declining GPA; Backlogs,Continue regular monitoring
+ST1360,48,8.46,4.11,62,5,86,782.3,45,12,30.1,81,14.4,24,194,57.0,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1361,80,4.2,5.17,81,5,72,455.4,48,13,21.7,60,96.3,50,202,81.0,High,Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1362,74,7.42,4.05,43,1,72,458.0,52,15,34.8,97,29.6,99,211,48.4,Medium,Low attendance; Low assignment completion; High water level,Monitor performance and attendance
+ST1363,58,8.57,7.88,82,1,58,1161.2,54,5,38.1,81,108.0,89,102,43.2,Medium,Low attendance; Heavy rainfall; High water level,Monitor performance and attendance
+ST1364,87,9.26,9.39,88,5,42,903.7,45,1,25.4,36,109.3,45,112,41.6,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1365,55,6.05,5.46,70,3,49,649.2,83,4,29.3,51,113.2,93,136,81.1,High,Low attendance; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1366,42,8.93,9.56,97,3,79,1075.4,30,5,38.5,85,62.4,86,157,43.5,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1367,59,4.66,4.36,97,2,86,678.1,71,4,39.3,87,81.3,42,75,60.3,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1368,63,9.08,9.61,37,4,81,1035.4,48,11,25.3,93,93.4,14,31,53.9,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1369,93,4.76,6.11,31,2,40,795.1,63,1,32.1,41,15.7,87,180,64.6,Medium,Declining GPA; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1370,95,6.38,4.61,70,4,68,1305.9,84,13,24.2,36,72.1,100,139,63.5,Medium,Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1371,72,8.78,6.92,84,1,89,1302.8,47,6,22.2,84,4.1,96,90,28.2,Low,Low attendance; High water level,Continue regular monitoring
+ST1372,63,4.9,5.54,45,0,73,925.1,63,3,40.0,91,59.7,23,36,51.9,Medium,Low attendance; Declining GPA; Low assignment completion,Monitor performance and attendance
+ST1373,91,5.38,5.71,91,2,90,785.9,74,7,38.1,84,18.6,77,208,42.5,Medium,Backlogs; High water level,Monitor performance and attendance
+ST1374,50,8.33,5.84,77,2,52,798.8,35,6,36.7,65,22.0,92,141,45.7,Medium,Low attendance; Backlogs; High water level,Monitor performance and attendance
+ST1375,88,8.32,8.82,59,4,93,1286.3,50,6,21.1,53,43.8,56,143,37.6,Low,Low assignment completion; Backlogs,Continue regular monitoring
+ST1376,47,7.85,7.23,41,1,40,761.0,99,8,38.6,73,51.9,63,29,42.6,Medium,Low attendance; Low assignment completion,Monitor performance and attendance
+ST1377,75,8.16,5.87,64,1,73,630.0,77,0,29.6,46,74.8,13,50,27.9,Low,Heavy rainfall,Continue regular monitoring
+ST1378,77,7.26,7.66,40,4,68,493.2,68,9,27.5,31,8.9,92,79,64.1,Medium,Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1379,79,5.51,8.3,93,1,87,913.4,60,5,32.0,42,60.4,18,89,36.5,Low,Declining GPA; Heavy rainfall,Continue regular monitoring
+ST1380,59,6.07,5.64,79,5,86,930.3,39,5,22.0,60,21.9,62,36,67.1,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1381,74,5.09,6.48,50,3,52,1325.0,59,5,36.6,57,68.9,86,69,72.6,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1382,87,9.45,4.73,98,5,87,643.4,47,12,32.8,89,76.5,87,56,38.1,Low,Backlogs; Heavy rainfall; High water level,Continue regular monitoring
+ST1383,64,7.5,5.09,77,0,88,819.1,89,11,24.1,56,66.8,69,229,26.2,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1384,74,6.41,8.09,49,2,92,1289.2,44,5,24.1,44,88.6,55,209,54.0,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1385,64,6.77,5.09,96,0,100,1306.0,33,11,24.1,62,40.3,63,237,25.9,Low,Low attendance,Continue regular monitoring
+ST1386,68,9.68,7.15,73,2,68,823.1,92,9,21.3,49,91.8,83,137,32.8,Low,Low attendance; Backlogs; Heavy rainfall; High water level,Continue regular monitoring
+ST1387,57,4.92,8.25,62,3,78,905.0,69,6,32.9,71,51.9,46,227,68.3,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1388,85,7.52,4.64,90,1,63,733.6,38,13,38.5,41,58.1,32,219,19.7,Low,No major risk factors,Continue regular monitoring
+ST1389,57,7.04,7.4,38,5,65,1425.8,38,9,20.4,52,77.8,36,235,73.8,High,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1390,41,7.67,5.54,97,4,56,530.5,55,5,21.1,43,2.2,79,224,55.8,Medium,Low attendance; Backlogs; High water level,Monitor performance and attendance
+ST1391,93,4.11,9.78,64,5,46,1427.1,33,0,32.6,54,78.5,99,176,89.7,High,Declining GPA; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1392,74,9.23,6.9,94,3,52,1152.3,45,2,38.0,60,74.2,75,179,27.6,Low,Low attendance; Backlogs; Heavy rainfall,Continue regular monitoring
+ST1393,55,9.59,8.84,37,0,44,984.7,44,1,27.2,83,37.2,70,235,21.4,Low,Low attendance; Low assignment completion,Continue regular monitoring
+ST1394,100,7.39,7.3,74,4,65,435.9,81,5,27.7,34,10.3,86,99,44.0,Medium,Backlogs; High water level,Monitor performance and attendance
+ST1395,80,8.18,4.26,76,1,88,923.2,98,7,33.1,42,10.9,60,30,19.8,Low,No major risk factors,Continue regular monitoring
+ST1396,75,9.53,7.8,69,3,42,848.5,34,2,26.0,57,110.8,59,243,36.6,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1397,72,8.24,9.71,83,4,46,577.3,49,9,20.6,72,82.7,28,153,44.0,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1398,43,4.92,7.61,75,3,97,1122.1,47,7,36.2,76,15.3,10,142,70.6,High,Low attendance; Declining GPA; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1399,72,7.46,8.92,76,3,88,1468.3,31,7,33.8,100,42.8,49,54,40.3,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1400,53,7.64,9.31,44,1,78,1018.4,42,4,32.8,67,71.1,41,52,43.8,Medium,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1401,60,6.54,5.37,48,2,92,1186.2,33,7,36.3,96,100.3,31,37,61.2,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1402,87,8.42,5.27,55,4,40,475.3,71,5,34.9,91,5.2,75,184,40.4,Medium,Low assignment completion; Backlogs,Monitor performance and attendance
+ST1403,59,9.61,7.67,81,1,88,859.4,90,4,24.5,68,28.4,49,32,15.8,Low,Low attendance,Continue regular monitoring
+ST1404,95,9.55,6.47,51,3,56,528.0,37,8,27.8,66,106.8,47,221,32.1,Low,Low assignment completion; Backlogs; Heavy rainfall,Continue regular monitoring
+ST1405,47,6.71,9.04,50,1,82,1074.1,96,13,22.8,37,1.1,57,248,49.2,Medium,Low attendance; Declining GPA; Low assignment completion,Monitor performance and attendance
+ST1406,46,4.68,9.4,80,2,64,1432.3,92,6,22.9,81,24.2,64,109,64.1,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1407,42,9.91,6.12,67,5,98,1128.0,38,7,34.9,62,115.1,84,129,66.0,Medium,Low attendance; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1408,56,9.03,5.42,49,4,100,484.5,40,0,38.9,71,73.6,90,228,58.8,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1409,72,4.75,8.68,58,2,42,790.1,71,10,41.2,56,31.4,64,211,58.8,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1410,87,9.53,5.65,80,0,54,1005.7,42,1,33.8,37,8.0,60,20,0.0,Low,No major risk factors,Continue regular monitoring
+ST1411,51,9.22,8.94,33,4,68,843.5,65,7,24.1,52,3.4,69,82,50.7,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1412,98,7.11,6.54,84,2,92,1317.0,42,11,22.3,93,29.4,17,236,25.3,Low,Backlogs,Continue regular monitoring
+ST1413,90,7.55,8.01,100,3,82,1296.1,41,8,37.9,49,105.8,95,53,49.1,Medium,Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1414,61,6.39,4.57,57,4,71,1073.0,66,3,32.7,45,49.9,77,122,66.0,Medium,Low attendance; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1415,94,4.33,7.74,33,4,65,810.8,81,15,33.6,46,86.4,84,29,83.7,High,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1416,61,6.01,6.71,51,1,99,680.9,100,11,37.2,48,110.2,81,147,65.3,Medium,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall; High water level,Monitor performance and attendance
+ST1417,85,8.82,7.52,74,3,55,516.5,31,15,35.5,37,49.0,18,231,25.6,Low,Backlogs,Continue regular monitoring
+ST1418,69,4.03,5.01,96,0,64,790.4,85,9,38.4,67,23.0,99,26,57.8,Medium,Low attendance; Declining GPA; High water level,Monitor performance and attendance
+ST1419,77,6.0,8.42,95,5,93,854.5,89,10,21.2,67,62.1,11,75,57.7,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1420,77,6.39,9.18,63,2,67,1143.4,52,9,36.4,82,109.0,89,99,63.1,Medium,Declining GPA; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1421,84,7.22,5.3,84,1,48,1124.0,69,13,38.7,60,96.5,79,184,36.0,Low,Heavy rainfall; High water level,Continue regular monitoring
+ST1422,90,9.52,4.57,30,2,95,477.1,93,8,26.3,73,7.9,94,176,33.2,Low,Low assignment completion; Backlogs; High water level,Continue regular monitoring
+ST1423,93,6.08,4.14,67,0,95,834.8,52,3,34.1,89,83.1,99,31,45.1,Medium,Heavy rainfall; High water level,Monitor performance and attendance
+ST1424,47,6.08,7.85,35,0,40,600.0,58,9,26.9,46,68.6,68,164,53.2,Medium,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1425,66,8.43,7.64,54,4,68,572.5,80,15,41.1,68,108.9,28,67,57.3,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1426,66,6.71,7.28,46,0,96,1310.0,98,9,20.7,71,14.7,37,231,36.9,Low,Low attendance; Declining GPA; Low assignment completion,Continue regular monitoring
+ST1427,73,5.35,5.39,90,2,61,446.1,60,9,32.8,77,64.1,81,45,52.5,Medium,Low attendance; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1428,60,6.71,6.35,41,3,55,861.1,79,8,23.7,41,105.5,23,131,68.7,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1429,69,4.85,7.57,35,3,80,585.0,49,10,35.7,47,49.2,33,230,70.4,High,Low attendance; Declining GPA; Low assignment completion; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1430,72,5.06,6.98,56,4,90,1367.3,84,6,23.9,35,57.8,53,141,69.0,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1431,67,6.99,9.93,37,5,83,1012.7,31,1,25.2,72,8.5,65,31,66.6,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1432,86,6.51,4.82,94,2,90,654.5,54,8,30.9,64,33.4,99,168,45.2,Medium,Backlogs; High water level,Monitor performance and attendance
+ST1433,72,9.49,8.17,86,2,93,952.7,42,3,40.1,83,38.9,60,61,16.7,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1434,44,6.17,6.43,69,0,80,1204.6,99,7,24.7,91,113.4,41,80,56.1,Medium,Low attendance; Heavy rainfall,Monitor performance and attendance
+ST1435,99,7.48,6.57,43,2,46,1453.9,96,13,23.2,98,33.9,59,77,31.4,Low,Low assignment completion; Backlogs,Continue regular monitoring
+ST1436,100,7.79,8.31,64,1,53,642.5,87,6,36.7,45,55.3,50,201,17.9,Low,Declining GPA,Continue regular monitoring
+ST1437,87,4.08,8.15,77,5,68,1374.8,93,12,31.0,37,80.6,75,53,78.9,High,Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1438,58,7.98,9.95,85,0,58,1427.7,98,14,40.1,60,19.5,34,26,21.5,Low,Low attendance; Declining GPA,Continue regular monitoring
+ST1439,43,5.07,4.77,78,1,58,1408.1,88,15,23.2,39,58.4,70,128,56.7,Medium,Low attendance,Monitor performance and attendance
+ST1440,74,9.77,4.62,42,4,41,1099.0,89,6,34.2,85,88.6,75,54,44.6,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1441,88,4.89,8.35,90,3,80,1092.8,91,7,25.1,99,104.0,51,34,60.4,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1442,56,6.49,7.47,78,4,84,843.5,45,0,23.4,49,75.2,74,212,64.5,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1443,83,4.51,5.64,75,3,54,1227.6,97,4,35.0,34,80.3,45,237,63.2,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1444,67,9.98,4.48,91,4,42,984.4,44,1,33.1,52,15.2,85,246,32.6,Low,Low attendance; Backlogs; High water level,Continue regular monitoring
+ST1445,69,7.01,4.51,37,2,50,1145.2,84,1,36.6,38,113.5,18,44,59.7,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1446,68,7.57,9.37,72,1,92,871.3,64,14,26.8,87,15.9,45,78,29.8,Low,Low attendance; Declining GPA,Continue regular monitoring
+ST1447,85,4.4,5.15,49,3,85,1204.6,84,0,29.9,88,93.0,47,98,72.0,High,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1448,92,8.5,5.94,68,0,69,1306.9,43,4,28.9,83,31.8,42,105,8.6,Low,No major risk factors,Continue regular monitoring
+ST1449,45,5.26,5.36,78,1,96,561.1,78,1,41.6,75,112.0,51,153,66.3,Medium,Low attendance; Heavy rainfall,Monitor performance and attendance
+ST1450,74,9.39,6.13,93,0,79,1316.2,36,3,26.4,51,86.4,70,199,9.0,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1451,99,5.23,4.42,91,1,57,994.3,59,2,26.5,93,90.5,55,226,38.4,Low,Heavy rainfall,Continue regular monitoring
+ST1452,80,5.14,7.11,83,1,90,1329.1,78,2,27.8,37,26.3,95,107,52.4,Medium,Declining GPA; High water level,Monitor performance and attendance
+ST1453,76,4.22,4.41,38,4,87,874.4,45,1,32.4,49,53.2,98,168,90.5,High,Low assignment completion; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1454,63,6.83,8.8,66,3,41,816.9,80,12,25.6,80,74.1,70,90,53.9,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1455,68,7.39,5.4,78,3,71,1406.6,71,5,40.1,68,92.4,27,140,49.2,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1456,88,4.39,7.24,70,1,47,676.3,46,1,25.8,66,12.5,79,112,50.8,Medium,Declining GPA; High water level,Monitor performance and attendance
+ST1457,85,8.65,9.28,46,2,61,1328.6,92,13,39.7,79,115.5,91,115,49.2,Medium,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1458,92,6.72,7.91,50,2,45,932.4,74,13,22.3,63,106.8,89,51,57.4,Medium,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1459,70,7.15,7.2,80,0,51,965.5,36,7,34.4,62,32.4,24,72,24.4,Low,Low attendance,Continue regular monitoring
+ST1460,74,6.64,5.95,88,0,86,739.3,56,7,40.0,60,98.7,57,78,33.7,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1461,99,6.4,6.0,68,4,96,1030.3,39,12,23.7,83,62.2,81,88,51.4,Medium,Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1462,72,7.36,8.02,84,1,79,757.7,63,13,41.3,73,55.4,22,209,27.2,Low,Low attendance; Declining GPA,Continue regular monitoring
+ST1463,91,4.93,9.96,70,0,75,443.2,65,11,30.0,63,37.7,52,151,35.5,Low,Declining GPA,Continue regular monitoring
+ST1464,100,5.09,7.97,68,0,54,699.2,54,4,40.8,100,69.7,69,105,33.5,Low,Declining GPA; Heavy rainfall,Continue regular monitoring
+ST1465,60,9.17,7.35,42,5,67,407.0,35,9,34.9,91,87.6,66,37,57.9,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1466,71,9.68,8.38,93,1,91,1476.2,53,6,26.6,52,49.3,80,246,12.5,Low,Low attendance; High water level,Continue regular monitoring
+ST1467,62,6.24,6.79,40,4,96,1462.3,47,3,24.1,75,75.5,26,100,71.0,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1468,72,5.62,4.36,48,0,88,834.7,35,0,26.7,85,83.9,59,133,47.8,Medium,Low attendance; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1469,42,7.86,7.37,40,4,84,1201.2,58,10,22.0,36,85.3,41,203,68.5,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1470,57,6.45,9.75,75,3,57,780.4,54,1,23.2,90,6.2,31,43,53.8,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1471,64,4.15,5.05,74,4,41,1138.2,84,9,22.3,32,103.2,64,85,84.5,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1472,81,4.94,8.14,30,2,52,1286.0,75,9,29.3,67,55.0,66,160,60.3,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1473,70,8.3,5.21,69,2,84,1441.4,53,3,37.5,63,31.5,22,81,30.3,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1474,93,7.95,7.21,48,4,93,840.2,55,0,23.1,73,29.0,56,73,41.0,Medium,Low assignment completion; Backlogs,Monitor performance and attendance
+ST1475,97,4.16,4.58,90,2,54,1261.6,57,14,22.9,59,58.0,96,162,58.3,Medium,Backlogs; High water level,Monitor performance and attendance
+ST1476,42,5.33,6.7,41,3,59,692.5,32,12,34.2,46,106.4,71,216,86.5,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1477,79,5.39,8.54,90,1,68,1489.4,67,7,24.3,88,45.4,63,150,38.0,Low,Declining GPA,Continue regular monitoring
+ST1478,85,8.03,6.09,62,2,98,428.3,90,8,22.1,39,90.0,38,56,35.0,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1479,63,4.12,7.99,74,2,81,1063.9,80,3,23.7,47,11.6,31,56,63.3,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1480,89,4.62,8.77,98,4,68,1125.5,77,9,40.3,74,57.1,74,248,58.2,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1481,71,8.8,9.56,37,3,42,1156.9,50,2,38.1,88,119.0,38,150,52.7,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1482,86,5.07,5.41,54,1,58,532.4,83,1,27.8,91,92.5,57,210,53.3,Medium,Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1483,61,7.92,6.4,75,4,42,1432.4,85,4,34.4,88,25.3,14,54,47.2,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1484,62,5.43,4.91,59,4,93,599.3,88,13,31.8,78,60.2,44,199,69.3,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1485,41,4.6,9.95,76,5,53,1085.0,80,2,34.9,92,28.0,83,234,91.5,High,Low attendance; Declining GPA; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1486,66,5.46,9.56,78,3,79,644.9,49,9,35.0,61,49.1,92,143,67.1,Medium,Low attendance; Declining GPA; Backlogs; High water level,Monitor performance and attendance
+ST1487,81,8.33,7.24,76,1,98,737.9,88,6,33.8,39,93.6,80,175,30.4,Low,Heavy rainfall; High water level,Continue regular monitoring
+ST1488,41,9.13,9.05,47,3,94,1001.1,100,10,25.9,40,92.5,55,241,53.3,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1489,65,8.98,7.13,95,1,43,858.9,38,5,20.9,99,27.4,44,37,15.1,Low,Low attendance,Continue regular monitoring
+ST1490,56,6.38,7.74,97,3,98,576.2,30,15,30.0,91,110.7,54,141,61.2,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1491,79,8.01,4.53,62,4,99,588.0,58,0,39.6,76,71.1,22,183,45.2,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1492,72,5.23,8.53,65,4,91,860.0,92,11,32.5,63,45.6,19,180,65.6,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1493,48,5.76,4.77,48,0,50,1233.0,85,7,38.3,46,60.2,75,211,52.7,Medium,Low attendance; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1494,82,9.38,8.96,57,2,97,1387.8,97,1,41.8,83,72.6,79,173,27.2,Low,Low assignment completion; Backlogs; Heavy rainfall; High water level,Continue regular monitoring
+ST1495,93,4.08,8.69,69,5,70,492.5,64,4,23.6,69,67.2,81,67,78.1,High,Declining GPA; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1496,87,4.51,8.25,44,3,82,832.4,32,8,35.2,48,58.4,34,187,64.1,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1497,78,5.25,4.22,70,5,71,510.3,36,7,34.8,96,60.6,53,36,68.3,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1498,68,4.16,5.82,68,0,66,418.3,56,1,41.6,82,21.2,69,187,50.4,Medium,Low attendance; Declining GPA,Monitor performance and attendance
+ST1499,81,5.09,5.58,31,2,69,1127.9,30,8,41.7,93,97.5,56,154,67.4,Medium,Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1500,94,7.5,6.16,92,3,82,1062.7,100,15,35.1,76,65.0,49,76,29.2,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1501,65,6.53,4.53,58,1,41,579.3,73,4,25.4,35,15.7,16,27,41.9,Medium,Low attendance; Low assignment completion,Monitor performance and attendance
+ST1502,74,9.36,9.62,95,2,88,657.2,70,9,37.6,45,91.9,55,147,22.1,Low,Low attendance; Backlogs; Heavy rainfall,Continue regular monitoring
+ST1503,89,8.9,7.32,80,4,48,426.1,71,13,22.4,47,111.9,32,136,39.9,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1504,64,6.05,5.83,39,0,67,1318.4,62,5,37.2,81,113.7,92,75,66.3,Medium,Low attendance; Low assignment completion; Heavy rainfall; High water level,Monitor performance and attendance
+ST1505,63,5.56,6.38,43,2,70,1472.2,79,12,40.0,77,44.3,55,145,59.4,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1506,52,6.28,6.68,80,2,99,549.0,92,2,28.4,72,16.3,95,178,61.1,Medium,Low attendance; Backlogs; High water level,Monitor performance and attendance
+ST1507,99,7.54,7.6,68,4,73,654.6,66,12,33.9,68,62.2,22,78,37.8,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1508,97,5.61,7.09,57,3,100,1355.3,88,2,29.5,78,13.5,30,77,49.1,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1509,46,7.74,9.52,32,1,95,1419.1,77,9,29.6,41,112.1,10,159,57.7,Medium,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1510,96,6.46,6.98,99,4,54,861.6,34,7,26.8,39,22.0,28,195,39.6,Low,Declining GPA; Backlogs,Continue regular monitoring
+ST1511,75,7.31,9.95,56,1,87,455.7,77,10,36.8,100,30.3,69,178,32.7,Low,Declining GPA; Low assignment completion,Continue regular monitoring
+ST1512,84,6.62,9.11,31,3,64,443.3,32,9,40.6,84,48.8,42,127,52.3,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1513,59,5.77,5.25,67,2,75,1031.3,76,9,40.7,30,46.0,13,230,53.9,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1514,40,9.69,9.58,32,1,47,832.2,91,14,23.8,78,95.4,12,210,41.4,Medium,Low attendance; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1515,47,8.58,4.7,45,0,48,431.5,43,11,39.2,65,54.8,100,93,43.8,Medium,Low attendance; Low assignment completion; High water level,Monitor performance and attendance
+ST1516,85,4.84,8.9,69,0,97,1041.6,92,1,36.2,50,20.5,61,186,38.6,Low,Declining GPA,Continue regular monitoring
+ST1517,55,9.21,6.28,31,4,97,412.4,90,10,25.6,66,32.1,37,223,49.7,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1518,53,6.92,9.27,70,3,76,1266.1,60,11,21.5,53,61.1,79,167,57.2,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1519,51,9.37,9.21,41,4,87,737.1,46,11,25.9,84,17.7,79,120,51.8,Medium,Low attendance; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1520,90,8.8,8.84,64,4,84,444.3,53,1,40.1,54,73.4,64,67,35.2,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1521,62,6.55,8.74,94,5,78,1047.2,52,12,33.9,36,67.9,66,90,60.7,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1522,54,4.13,5.83,84,4,71,837.5,79,4,35.9,100,85.8,96,135,94.0,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1523,67,5.61,4.49,74,5,97,1471.2,99,5,25.7,100,112.5,25,201,80.5,High,Low attendance; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1524,73,7.25,6.42,91,0,91,998.6,56,11,35.8,53,109.5,33,141,31.2,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1525,41,7.8,5.04,78,0,56,702.8,44,1,20.6,40,113.5,78,97,46.6,Medium,Low attendance; Heavy rainfall; High water level,Monitor performance and attendance
+ST1526,71,5.55,8.17,54,4,74,1180.4,79,14,28.3,41,29.4,50,222,66.1,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1527,62,4.84,6.08,52,0,76,698.6,65,4,33.8,64,15.8,86,218,58.4,Medium,Low attendance; Declining GPA; Low assignment completion; High water level,Monitor performance and attendance
+ST1528,61,9.01,9.85,53,3,58,1394.7,37,6,23.2,92,36.3,56,48,37.9,Low,Low attendance; Declining GPA; Low assignment completion; Backlogs,Continue regular monitoring
+ST1529,90,9.91,7.85,67,5,83,812.2,32,9,38.1,97,107.4,85,221,46.6,Medium,Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1530,64,7.15,8.93,57,5,68,1004.9,91,9,25.2,86,116.6,78,112,78.4,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1531,97,5.03,4.8,50,4,98,455.6,76,7,34.4,42,103.1,40,92,70.9,High,Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1532,100,5.63,9.17,83,0,46,868.7,90,11,28.9,52,13.2,39,119,23.8,Low,Declining GPA,Continue regular monitoring
+ST1533,61,4.11,9.54,47,1,67,1315.6,61,15,33.1,68,113.7,27,195,76.4,High,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1534,97,9.49,6.92,65,5,48,1286.2,42,6,22.4,41,50.8,53,93,30.1,Low,Backlogs,Continue regular monitoring
+ST1535,97,4.71,7.64,74,4,67,646.8,30,7,20.4,63,1.1,36,230,58.1,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1536,61,7.46,8.59,82,4,45,648.7,63,13,40.0,100,53.1,35,203,49.1,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1537,88,5.64,5.05,59,3,68,1299.0,91,11,25.9,60,5.5,69,114,51.8,Medium,Low assignment completion; Backlogs,Monitor performance and attendance
+ST1538,91,7.33,7.02,89,2,97,1423.4,100,8,38.0,91,65.3,27,36,26.3,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1539,81,7.91,6.39,61,2,56,504.9,60,15,42.0,42,40.6,98,156,43.5,Medium,Backlogs; High water level,Monitor performance and attendance
+ST1540,45,8.98,4.88,96,5,55,895.1,93,14,24.7,60,56.8,65,116,46.5,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1541,54,5.24,6.21,96,3,62,771.2,54,4,25.8,31,73.6,40,181,62.4,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1542,93,4.07,4.41,57,3,70,1357.8,67,12,34.6,44,104.3,68,192,72.3,High,Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1543,82,4.82,4.15,73,3,42,491.9,43,4,41.2,86,79.4,11,235,61.5,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1544,99,9.4,4.81,70,5,60,632.2,37,10,40.1,63,52.1,48,28,28.9,Low,Backlogs,Continue regular monitoring
+ST1545,76,9.24,9.78,92,2,65,1227.7,83,9,31.1,97,98.3,70,154,24.4,Low,Declining GPA; Backlogs; Heavy rainfall,Continue regular monitoring
+ST1546,72,7.58,7.3,52,3,75,456.4,31,3,37.5,58,108.7,72,163,56.7,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1547,47,7.6,9.79,77,0,81,941.8,85,12,23.0,95,14.4,27,38,30.3,Low,Low attendance; Declining GPA,Continue regular monitoring
+ST1548,92,7.99,6.59,61,4,76,886.3,90,8,41.5,45,63.8,26,153,39.0,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1549,99,5.05,5.87,86,4,92,767.8,51,4,41.2,68,34.1,48,133,52.1,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1550,83,9.49,7.04,62,1,61,834.0,64,13,23.6,66,5.6,80,158,16.4,Low,High water level,Continue regular monitoring
+ST1551,83,6.51,6.64,53,1,81,982.9,45,1,26.6,50,80.2,63,144,41.0,Medium,Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1552,44,6.3,4.63,68,5,51,577.5,79,14,22.2,73,103.5,85,223,90.1,High,Low attendance; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1553,78,7.11,7.84,63,5,81,1029.2,72,9,26.0,48,19.5,44,80,55.7,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1554,43,4.28,5.3,85,4,100,1286.0,46,7,38.0,100,97.5,20,61,87.7,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1555,45,5.0,7.72,57,0,52,1236.2,87,14,28.3,37,102.4,70,32,64.8,Medium,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1556,84,8.43,7.9,66,2,50,569.3,31,6,21.9,95,109.7,53,159,35.9,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1557,71,4.5,4.91,36,2,93,564.2,33,7,27.5,70,31.8,77,104,69.2,Medium,Low attendance; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1558,91,7.62,4.37,97,5,55,695.0,68,11,41.6,99,108.5,34,221,50.2,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1559,69,5.47,8.68,66,0,47,797.2,35,15,33.9,90,38.5,57,39,40.6,Medium,Low attendance; Declining GPA,Monitor performance and attendance
+ST1560,86,6.34,6.76,85,5,79,849.3,98,2,29.2,55,66.3,41,69,54.9,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1561,74,5.73,4.35,94,2,98,1147.7,98,14,23.7,100,6.1,93,183,52.9,Medium,Low attendance; Backlogs; High water level,Monitor performance and attendance
+ST1562,94,6.13,9.97,94,5,96,462.3,49,14,41.7,99,5.3,13,111,50.0,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1563,79,8.31,4.35,76,3,79,438.1,93,15,38.1,58,86.4,47,107,37.2,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1564,91,5.78,8.17,49,5,84,831.1,45,3,26.2,95,53.3,72,88,64.9,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1565,55,7.4,9.9,48,4,98,1166.9,80,4,21.5,48,30.8,56,56,59.5,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1566,52,6.86,5.44,58,5,41,612.8,66,5,21.2,97,22.8,10,159,68.5,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1567,89,7.98,4.85,89,4,69,1105.7,98,0,22.6,87,80.4,12,118,37.7,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1568,99,9.62,4.73,47,0,69,685.8,71,3,32.8,99,0.0,95,144,13.6,Low,Low assignment completion; High water level,Continue regular monitoring
+ST1569,81,8.4,5.82,64,2,51,1374.7,86,10,40.4,86,96.7,71,187,35.2,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1570,69,5.29,4.61,72,1,49,1385.3,95,11,30.9,66,9.5,73,73,48.0,Medium,Low attendance,Monitor performance and attendance
+ST1571,58,4.19,8.15,40,1,83,727.0,38,9,38.5,90,23.0,26,149,66.3,Medium,Low attendance; Declining GPA; Low assignment completion,Monitor performance and attendance
+ST1572,56,5.57,4.37,78,2,50,653.0,93,12,29.8,59,46.3,87,197,61.8,Medium,Low attendance; Backlogs; High water level,Monitor performance and attendance
+ST1573,95,7.57,7.06,67,1,54,852.4,51,4,35.6,100,58.2,71,60,21.2,Low,No major risk factors,Continue regular monitoring
+ST1574,58,4.31,9.98,93,5,55,664.6,63,6,36.1,54,42.6,44,64,77.6,High,Low attendance; Declining GPA; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1575,67,6.98,8.88,98,0,56,1139.6,84,12,23.8,94,38.5,22,122,22.7,Low,Low attendance; Declining GPA,Continue regular monitoring
+ST1576,97,7.58,7.69,37,0,65,1308.7,58,4,27.9,35,115.7,44,125,33.3,Low,Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1577,94,6.01,5.84,63,2,41,1140.4,67,15,34.0,47,77.0,52,156,43.7,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1578,65,8.63,7.74,77,1,89,1306.8,47,12,21.6,39,2.8,11,209,21.8,Low,Low attendance,Continue regular monitoring
+ST1579,76,4.64,7.16,85,5,51,836.7,100,12,28.0,40,51.6,65,147,70.1,High,Declining GPA; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1580,65,4.45,6.56,94,0,90,571.9,94,0,31.8,94,105.0,86,105,60.9,Medium,Low attendance; Declining GPA; Heavy rainfall; High water level,Monitor performance and attendance
+ST1581,92,8.37,4.78,60,0,65,1211.7,30,10,41.9,94,36.2,60,66,11.4,Low,No major risk factors,Continue regular monitoring
+ST1582,62,6.97,9.32,33,3,62,796.5,33,6,30.4,81,11.3,63,24,57.5,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1583,48,8.13,6.7,79,3,57,1138.4,33,7,38.0,96,91.0,25,223,50.6,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1584,51,6.61,5.17,98,0,71,697.7,56,12,29.5,60,72.7,27,20,34.4,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1585,92,5.48,6.21,59,2,88,489.4,72,6,37.5,46,68.4,16,63,47.4,Medium,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1586,40,8.91,6.48,88,4,77,1491.8,88,10,33.1,84,6.4,54,169,44.7,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1587,97,8.8,8.97,96,4,96,571.8,61,15,39.5,65,16.9,45,57,22.3,Low,Backlogs,Continue regular monitoring
+ST1588,97,8.17,8.4,74,5,86,1487.3,62,13,29.0,55,74.7,50,38,41.4,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1589,40,5.63,8.62,33,0,42,1475.0,57,12,33.3,82,24.9,51,227,57.8,Medium,Low attendance; Declining GPA; Low assignment completion,Monitor performance and attendance
+ST1590,86,7.54,4.07,55,0,77,1273.2,84,14,33.9,46,60.5,16,178,21.2,Low,Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1591,73,6.17,6.5,56,0,42,1125.4,89,3,29.2,54,65.4,24,134,37.3,Low,Low attendance; Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1592,71,4.55,6.89,75,2,69,1035.6,99,7,23.2,31,34.0,69,214,56.8,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1593,93,9.5,4.12,93,3,100,1352.7,91,15,22.1,34,113.8,49,106,25.3,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1594,87,4.82,5.56,80,0,40,718.4,63,14,20.4,33,101.1,92,189,54.8,Medium,Declining GPA; Heavy rainfall; High water level,Monitor performance and attendance
+ST1595,64,9.7,8.56,79,0,69,914.4,85,4,39.2,65,86.7,46,142,13.7,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1596,79,6.68,4.82,35,1,84,1081.3,42,9,25.2,35,9.4,75,101,43.0,Medium,Low assignment completion,Monitor performance and attendance
+ST1597,84,5.11,7.21,88,2,71,852.3,85,8,24.7,50,12.7,64,173,44.7,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1598,92,7.25,5.29,44,5,67,870.2,47,11,36.2,55,59.1,86,160,60.9,Medium,Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1599,40,9.24,4.07,59,0,60,763.3,83,11,27.0,84,19.3,89,77,33.3,Low,Low attendance; Low assignment completion; High water level,Continue regular monitoring
+ST1600,55,8.39,5.45,71,1,97,1020.7,72,9,31.1,68,117.4,65,165,41.7,Medium,Low attendance; Heavy rainfall,Monitor performance and attendance
+ST1601,100,8.84,9.86,66,4,85,1335.6,68,4,23.6,62,19.0,53,86,27.6,Low,Declining GPA; Backlogs,Continue regular monitoring
+ST1602,78,7.95,8.81,71,5,52,621.7,90,15,41.1,43,58.5,66,141,47.5,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1603,44,8.15,9.76,64,0,66,1427.9,71,15,38.7,85,43.7,15,106,30.3,Low,Low attendance; Declining GPA,Continue regular monitoring
+ST1604,61,9.1,6.93,35,0,75,1158.0,47,0,39.0,50,76.7,41,150,27.0,Low,Low attendance; Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1605,68,5.5,4.66,97,1,46,1305.6,52,11,28.9,75,15.5,83,74,45.6,Medium,Low attendance; High water level,Monitor performance and attendance
+ST1606,94,6.94,7.29,47,2,61,1011.8,83,8,36.8,45,51.6,27,108,36.4,Low,Low assignment completion; Backlogs,Continue regular monitoring
+ST1607,42,5.33,6.73,58,0,49,1257.5,59,11,23.2,45,33.0,77,238,56.8,Medium,Low attendance; Declining GPA; Low assignment completion; High water level,Monitor performance and attendance
+ST1608,51,9.93,9.07,88,4,78,417.8,87,4,20.2,58,106.5,82,77,48.8,Medium,Low attendance; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1609,65,9.66,4.59,76,0,92,1300.2,97,5,20.4,37,4.9,16,82,8.2,Low,Low attendance,Continue regular monitoring
+ST1610,55,4.24,6.93,46,4,54,444.2,96,3,32.9,32,109.6,17,110,95.0,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1611,90,8.23,4.9,51,5,54,1378.9,100,5,30.0,48,100.0,73,71,55.8,Medium,Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1612,76,9.55,5.95,97,5,43,1491.2,47,11,31.4,95,35.7,16,236,30.3,Low,Backlogs,Continue regular monitoring
+ST1613,61,5.08,8.42,98,3,71,723.5,36,7,20.2,51,94.7,50,145,65.3,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1614,96,7.41,6.86,66,3,62,631.4,69,2,29.3,75,3.7,49,43,33.9,Low,Backlogs,Continue regular monitoring
+ST1615,68,9.49,6.26,78,4,94,1241.9,99,4,35.8,42,116.0,12,91,44.7,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1616,53,4.2,6.37,42,2,45,678.3,94,1,29.7,62,63.2,26,28,74.4,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1617,67,8.18,6.76,63,0,63,1352.1,97,13,36.1,34,36.4,75,129,23.8,Low,Low attendance,Continue regular monitoring
+ST1618,44,5.78,8.71,82,0,59,513.1,78,1,25.1,56,43.5,88,184,52.2,Medium,Low attendance; Declining GPA; High water level,Monitor performance and attendance
+ST1619,86,9.55,9.35,80,3,97,538.6,81,12,37.9,53,8.0,61,113,18.3,Low,Backlogs,Continue regular monitoring
+ST1620,88,9.83,9.73,32,4,76,1477.1,58,6,32.9,96,118.7,31,136,45.7,Medium,Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1621,69,9.67,8.72,71,0,59,1141.2,50,9,24.6,92,4.7,13,102,7.8,Low,Low attendance,Continue regular monitoring
+ST1622,85,6.85,5.89,61,0,51,1331.6,38,12,25.2,77,78.6,15,200,29.5,Low,Heavy rainfall,Continue regular monitoring
+ST1623,91,9.17,8.13,80,2,72,756.8,76,15,33.8,92,53.1,47,99,13.3,Low,Backlogs,Continue regular monitoring
+ST1624,44,9.07,6.63,75,1,67,1144.1,71,9,38.3,41,113.9,35,171,39.1,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1625,51,5.91,5.53,50,3,47,1053.7,80,13,29.1,57,29.5,20,168,65.8,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1626,55,8.97,9.05,73,3,40,1063.5,85,10,25.7,73,63.9,99,119,50.0,Medium,Low attendance; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1627,65,4.22,4.23,40,1,76,1150.8,80,9,39.1,72,57.9,26,59,63.4,Medium,Low attendance; Low assignment completion,Monitor performance and attendance
+ST1628,65,7.58,9.41,97,0,61,1032.9,99,5,34.7,46,84.3,97,122,36.9,Low,Low attendance; Declining GPA; Heavy rainfall; High water level,Continue regular monitoring
+ST1629,87,5.38,6.77,30,2,45,872.0,49,3,29.9,69,8.2,40,81,54.7,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1630,60,4.72,7.82,92,2,100,703.5,56,4,30.7,78,23.3,86,217,63.1,Medium,Low attendance; Declining GPA; Backlogs; High water level,Monitor performance and attendance
+ST1631,78,4.46,7.96,53,3,60,1245.4,67,0,24.5,86,25.7,44,88,65.9,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1632,75,8.18,9.37,42,2,71,648.9,94,6,33.8,93,88.6,25,161,41.9,Medium,Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1633,72,6.04,7.82,40,5,74,1161.6,83,7,27.9,86,22.7,88,128,79.4,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1634,69,8.35,7.68,80,1,54,656.7,53,8,41.9,99,68.8,27,189,23.7,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1635,76,4.39,4.4,46,0,44,1087.9,76,7,30.6,72,25.8,71,197,51.1,Medium,Low assignment completion,Monitor performance and attendance
+ST1636,62,5.89,7.11,53,5,99,1221.8,100,4,30.7,52,103.4,36,208,83.0,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1637,97,7.24,4.9,48,1,95,640.6,92,15,32.4,56,113.1,44,23,38.8,Low,Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1638,49,8.74,8.42,66,4,85,465.9,86,2,40.2,87,62.2,54,91,48.1,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1639,93,5.91,7.07,37,3,89,544.1,84,9,37.6,66,42.3,44,235,52.9,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1640,44,7.76,8.08,57,2,87,1066.6,89,10,29.9,35,28.1,37,222,46.9,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1641,75,9.32,4.25,34,4,45,1334.4,91,8,35.8,94,6.0,18,36,40.7,Medium,Low assignment completion; Backlogs,Monitor performance and attendance
+ST1642,73,7.7,4.51,46,2,64,449.5,59,14,32.9,35,32.2,85,133,45.6,Medium,Low attendance; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1643,91,5.4,8.3,65,5,95,1207.6,51,5,30.8,79,78.5,24,104,67.4,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1644,70,4.15,4.43,48,0,85,775.5,58,14,24.2,51,64.0,30,76,55.1,Medium,Low attendance; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1645,49,9.22,4.43,93,0,98,926.4,70,4,30.2,54,113.3,61,237,25.8,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1646,97,4.13,4.07,40,0,95,1421.7,71,12,25.4,80,47.6,44,126,46.0,Medium,Low assignment completion,Monitor performance and attendance
+ST1647,58,9.25,9.74,83,2,79,765.2,94,2,40.1,77,83.3,60,67,29.7,Low,Low attendance; Backlogs; Heavy rainfall,Continue regular monitoring
+ST1648,97,7.17,8.43,74,4,68,911.9,60,5,27.4,99,58.7,92,191,49.5,Medium,Declining GPA; Backlogs; High water level,Monitor performance and attendance
+ST1649,71,9.63,6.12,76,0,46,415.1,59,2,40.9,94,61.5,64,192,6.5,Low,Low attendance; Heavy rainfall,Continue regular monitoring
+ST1650,40,8.79,5.78,41,4,79,489.8,47,9,31.7,89,32.1,96,238,68.0,Medium,Low attendance; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1651,95,9.99,6.1,50,2,52,684.5,46,11,33.9,75,54.6,86,227,19.6,Low,Low assignment completion; Backlogs; High water level,Continue regular monitoring
+ST1652,44,6.1,8.65,40,5,77,430.6,67,5,31.9,65,56.5,53,237,81.3,High,Low attendance; Declining GPA; Low assignment completion; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1653,84,8.6,7.97,34,4,57,1094.5,43,3,22.8,87,84.8,74,136,50.1,Medium,Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1654,43,6.41,5.11,85,5,41,869.0,85,14,28.3,67,112.9,97,180,93.4,High,Low attendance; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1655,55,6.88,5.04,49,2,47,1003.0,51,1,22.2,40,39.5,89,50,59.8,Medium,Low attendance; Low assignment completion; Backlogs; High water level,Monitor performance and attendance
+ST1656,63,7.77,4.59,70,2,50,592.1,96,15,33.7,41,5.1,34,131,36.7,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1657,55,9.24,7.96,75,3,72,725.5,85,7,29.8,71,59.6,96,66,45.3,Medium,Low attendance; Backlogs; High water level,Monitor performance and attendance
+ST1658,94,9.9,8.59,41,2,93,1130.2,48,3,37.1,68,65.3,56,153,16.7,Low,Low assignment completion; Backlogs; Heavy rainfall,Continue regular monitoring
+ST1659,41,8.61,5.59,99,2,100,1461.8,86,8,24.9,100,20.2,89,127,40.7,Medium,Low attendance; Backlogs; High water level,Monitor performance and attendance
+ST1660,88,6.51,4.13,46,1,77,455.5,73,6,23.6,40,91.3,65,91,43.2,Medium,Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1661,67,6.53,4.49,48,0,87,1379.4,64,11,28.9,65,118.2,47,90,50.6,Medium,Low attendance; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1662,71,8.43,9.81,55,3,66,1034.6,30,1,40.4,81,113.5,20,181,50.2,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1663,66,5.43,5.77,77,3,59,1020.3,81,3,35.6,60,23.7,76,127,60.4,Medium,Low attendance; Backlogs; High water level,Monitor performance and attendance
+ST1664,59,4.66,8.62,81,3,51,950.3,99,4,29.2,62,105.0,24,72,75.4,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1665,63,6.13,7.75,99,1,82,476.3,66,2,31.4,42,84.5,10,161,42.0,Medium,Low attendance; Declining GPA; Heavy rainfall,Monitor performance and attendance
+ST1666,51,5.72,6.29,84,5,100,498.9,94,8,21.9,47,54.5,16,35,71.6,High,Low attendance; Declining GPA; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1667,89,5.78,5.23,62,2,70,1061.0,80,12,41.7,70,64.9,10,190,44.8,Medium,Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1668,74,5.4,4.73,91,0,66,775.1,30,4,34.7,87,102.0,58,135,43.1,Medium,Low attendance; Heavy rainfall,Monitor performance and attendance
+ST1669,99,4.25,7.69,52,4,71,1409.0,50,1,26.3,85,57.6,82,92,71.2,High,Declining GPA; Low assignment completion; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1670,72,4.11,8.65,44,5,100,847.2,82,10,32.9,53,44.8,38,93,84.9,High,Low attendance; Declining GPA; Low assignment completion; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1671,72,9.93,7.86,56,2,49,557.6,45,2,22.4,60,59.2,35,100,20.1,Low,Low attendance; Low assignment completion; Backlogs,Continue regular monitoring
+ST1672,100,6.57,7.18,93,1,42,1186.2,90,13,41.2,84,69.5,96,31,34.4,Low,Declining GPA; Heavy rainfall; High water level,Continue regular monitoring
+ST1673,90,6.31,4.25,80,2,84,722.7,83,14,23.8,39,22.7,54,147,35.2,Low,Backlogs,Continue regular monitoring
+ST1674,82,8.08,9.81,82,2,66,978.0,69,8,34.3,89,108.1,80,89,39.9,Low,Declining GPA; Backlogs; Heavy rainfall; High water level,Continue regular monitoring
+ST1675,76,5.31,8.79,80,1,74,1167.6,55,6,25.4,31,80.9,21,166,46.8,Medium,Declining GPA; Heavy rainfall,Monitor performance and attendance
+ST1676,51,9.7,5.76,76,3,70,1390.3,94,1,35.8,44,76.0,41,60,34.9,Low,Low attendance; Backlogs; Heavy rainfall,Continue regular monitoring
+ST1677,42,8.72,9.88,33,3,54,1271.4,93,8,37.1,32,11.9,29,200,51.8,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1678,40,4.54,7.61,36,0,55,1144.0,72,13,34.8,72,72.5,60,176,68.2,Medium,Low attendance; Declining GPA; Low assignment completion; Heavy rainfall,Monitor performance and attendance
+ST1679,72,6.51,7.49,64,0,100,1147.6,46,3,33.5,60,14.5,90,217,41.1,Medium,Low attendance; Declining GPA; High water level,Monitor performance and attendance
+ST1680,79,9.27,8.49,77,3,52,1440.5,88,12,39.6,99,9.4,45,78,23.8,Low,Backlogs,Continue regular monitoring
+ST1681,49,9.67,8.87,74,5,88,725.4,52,8,21.7,96,63.3,76,108,48.3,Medium,Low attendance; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1682,82,6.8,7.94,48,4,74,401.2,36,14,27.3,85,48.3,10,211,53.9,Medium,Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1683,83,7.68,4.77,92,2,91,699.2,73,12,25.5,92,70.7,36,43,27.2,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1684,68,5.0,6.03,67,4,50,639.7,82,1,41.7,44,10.7,49,236,68.4,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1685,52,9.95,9.57,96,2,98,1128.0,100,14,28.6,39,51.7,93,163,28.9,Low,Low attendance; Backlogs; High water level,Continue regular monitoring
+ST1686,51,5.39,5.35,88,3,60,1097.1,63,11,36.1,67,21.0,23,199,61.1,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1687,70,9.66,6.23,98,0,90,1052.8,75,9,35.1,76,118.5,78,99,18.2,Low,Low attendance; Heavy rainfall; High water level,Continue regular monitoring
+ST1688,85,7.9,6.59,42,5,93,417.9,97,15,24.7,86,67.3,96,153,65.3,Medium,Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1689,41,7.65,6.64,76,0,50,1201.7,45,11,25.3,79,82.5,88,184,45.7,Medium,Low attendance; Heavy rainfall; High water level,Monitor performance and attendance
+ST1690,100,7.08,7.68,90,4,69,755.9,100,3,26.2,100,39.1,15,232,35.5,Low,Declining GPA; Backlogs,Continue regular monitoring
+ST1691,90,5.38,9.66,60,0,99,1131.6,48,4,29.0,44,11.4,42,151,34.7,Low,Declining GPA,Continue regular monitoring
+ST1692,89,5.06,5.44,51,3,87,1012.2,31,1,25.2,47,117.1,64,245,70.6,High,Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1693,74,5.32,4.73,72,5,92,777.0,39,9,20.4,31,34.4,28,111,68.7,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1694,62,5.12,5.18,96,4,74,548.0,79,0,39.3,72,50.9,86,185,70.5,High,Low attendance; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1695,56,8.68,9.32,83,5,61,503.9,41,6,41.2,55,78.0,38,188,51.7,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1696,65,6.1,7.87,39,2,77,1314.7,99,15,27.5,100,3.0,70,111,55.5,Medium,Low attendance; Declining GPA; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1697,47,4.35,5.72,71,0,70,1410.2,51,9,27.4,67,97.2,79,100,68.7,Medium,Low attendance; Declining GPA; Heavy rainfall; High water level,Monitor performance and attendance
+ST1698,68,9.81,8.9,93,5,53,1114.8,61,0,20.2,71,64.4,88,161,41.4,Medium,Low attendance; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1699,65,9.3,9.17,50,1,63,513.8,30,15,35.0,34,33.4,89,90,31.5,Low,Low attendance; Low assignment completion; High water level,Continue regular monitoring
+ST1700,49,9.57,9.08,95,0,89,842.2,83,10,38.2,40,7.4,33,233,10.6,Low,Low attendance,Continue regular monitoring
+ST1701,65,9.97,9.51,70,2,88,1201.8,87,10,23.2,94,19.5,32,198,19.3,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1702,73,5.04,5.51,53,5,71,1257.8,99,7,23.5,63,107.4,19,84,86.2,High,Low attendance; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1703,90,6.38,8.53,64,4,75,530.0,47,2,37.4,30,82.3,63,240,55.4,Medium,Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1704,80,8.55,6.76,85,2,71,400.0,35,13,33.6,31,30.0,50,71,21.0,Low,Backlogs,Continue regular monitoring
+ST1705,46,8.18,9.05,59,1,94,1183.4,74,9,21.0,49,7.9,58,242,36.4,Low,Low attendance; Declining GPA; Low assignment completion,Continue regular monitoring
+ST1706,43,4.92,8.37,86,5,54,792.3,52,5,33.7,90,82.9,26,49,85.4,High,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1707,97,8.89,8.66,76,3,82,679.9,52,6,26.8,50,68.7,65,204,22.0,Low,Backlogs; Heavy rainfall,Continue regular monitoring
+ST1708,92,5.35,7.94,64,0,97,414.2,55,9,28.1,97,48.5,54,226,33.3,Low,Declining GPA,Continue regular monitoring
+ST1709,89,5.34,5.06,48,4,74,994.3,36,0,36.9,41,43.6,39,229,62.2,Medium,Low assignment completion; Backlogs,Monitor performance and attendance
+ST1710,84,7.22,7.27,37,3,42,1336.3,73,13,37.8,51,26.0,53,118,46.4,Medium,Low assignment completion; Backlogs,Monitor performance and attendance
+ST1711,50,7.56,9.91,55,5,55,1453.4,56,5,28.8,49,80.4,83,177,75.2,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1712,68,7.48,9.62,100,5,44,1022.3,55,6,40.8,30,116.5,64,117,61.1,Medium,Low attendance; Declining GPA; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1713,95,4.55,4.26,59,2,60,965.9,65,5,28.9,59,21.1,28,61,51.4,Medium,Low assignment completion; Backlogs,Monitor performance and attendance
+ST1714,75,9.26,4.99,36,5,100,493.6,84,3,37.0,53,71.7,38,158,49.3,Medium,Low assignment completion; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1715,64,5.59,4.79,96,4,49,1003.8,93,0,30.6,43,50.9,11,46,58.9,Medium,Low attendance; Backlogs,Monitor performance and attendance
+ST1716,60,4.78,8.36,94,3,58,818.0,86,10,39.7,65,53.6,45,171,61.0,Medium,Low attendance; Declining GPA; Backlogs,Monitor performance and attendance
+ST1717,100,9.33,8.91,65,4,64,1067.8,98,8,40.0,98,30.5,28,246,24.1,Low,Backlogs,Continue regular monitoring
+ST1718,96,9.73,5.28,54,1,43,827.6,90,3,21.9,53,99.0,16,186,15.8,Low,Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1719,75,9.17,7.04,66,1,100,664.3,31,6,40.6,89,58.2,35,91,16.4,Low,No major risk factors,Continue regular monitoring
+ST1720,49,8.86,9.04,30,0,68,504.5,84,6,38.2,84,65.2,88,37,40.0,Low,Low attendance; Low assignment completion; Heavy rainfall; High water level,Continue regular monitoring
+ST1721,76,7.93,8.4,44,0,58,746.4,67,1,37.4,53,36.6,47,96,24.4,Low,Low assignment completion,Continue regular monitoring
+ST1722,48,7.31,7.25,66,1,82,506.3,58,0,24.4,53,21.8,12,64,40.7,Medium,Low attendance,Monitor performance and attendance
+ST1723,63,4.52,7.54,42,5,41,594.6,55,7,37.7,83,10.3,89,235,94.2,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; High water level,Faculty intervention; Academic counselling; Campus monitoring
+ST1724,74,6.45,7.05,37,4,49,1486.1,64,7,38.7,55,85.7,75,134,70.1,High,Low attendance; Declining GPA; Low assignment completion; Backlogs; Heavy rainfall,Faculty intervention; Academic counselling; Campus monitoring
+ST1725,88,6.24,5.79,34,1,100,888.5,96,6,26.4,95,23.5,80,106,45.4,Medium,Low assignment completion; High water level,Monitor performance and attendance
+ST1726,74,5.56,7.39,89,0,82,985.1,58,13,40.9,67,82.8,52,159,38.0,Low,Low attendance; Declining GPA; Heavy rainfall,Continue regular monitoring
+ST1727,87,8.34,8.13,30,1,64,1361.0,63,14,21.1,94,46.8,71,196,26.8,Low,Low assignment completion,Continue regular monitoring
+ST1728,75,6.98,9.24,65,5,59,1495.1,70,14,23.3,80,49.9,80,241,61.9,Medium,Declining GPA; Backlogs; High water level,Monitor performance and attendance
+ST1729,57,4.49,7.82,64,1,87,1041.0,70,14,31.8,64,56.3,33,178,59.0,Medium,Low attendance; Declining GPA,Monitor performance and attendance
+ST1730,88,5.32,8.57,95,4,58,1293.7,52,14,32.7,72,44.1,48,111,52.1,Medium,Declining GPA; Backlogs,Monitor performance and attendance
+ST1731,78,8.1,4.96,92,3,62,759.6,100,7,34.2,58,12.1,77,41,32.7,Low,Backlogs; High water level,Continue regular monitoring
+ST1732,71,4.46,6.77,52,5,63,736.3,32,15,20.4,66,37.2,53,191,80.8,High,Low attendance; Declining GPA; Low assignment completion; Backlogs,Faculty intervention; Academic counselling; Campus monitoring
+ST1733,63,9.11,4.06,38,0,50,843.0,87,2,41.1,87,79.6,14,111,26.2,Low,Low attendance; Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1734,62,6.97,5.48,63,4,85,1139.8,61,10,21.0,83,79.9,64,211,61.2,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1735,71,6.88,8.36,75,1,73,1150.4,60,1,23.1,68,34.3,39,96,33.2,Low,Low attendance; Declining GPA,Continue regular monitoring
+ST1736,76,7.55,9.95,33,1,94,746.8,72,6,20.3,71,55.2,38,44,35.8,Low,Declining GPA; Low assignment completion,Continue regular monitoring
+ST1737,51,8.95,4.6,59,3,67,546.5,36,7,32.5,57,23.2,35,127,40.8,Medium,Low attendance; Low assignment completion; Backlogs,Monitor performance and attendance
+ST1738,88,6.09,6.41,32,0,44,1095.6,30,0,40.5,58,25.2,92,198,46.4,Medium,Low assignment completion; High water level,Monitor performance and attendance
+ST1739,94,8.07,8.8,43,0,98,541.2,90,11,34.7,72,2.8,35,154,16.7,Low,Declining GPA; Low assignment completion,Continue regular monitoring
+ST1740,52,7.39,5.22,89,2,44,1036.3,43,9,38.1,32,107.6,46,128,50.2,Medium,Low attendance; Backlogs; Heavy rainfall,Monitor performance and attendance
+ST1741,62,5.6,7.33,74,0,90,1162.8,81,15,20.3,39,25.3,100,153,54.0,Medium,Low attendance; Declining GPA; High water level,Monitor performance and attendance
+ST1742,64,9.27,8.4,63,3,60,1170.7,35,8,31.9,88,27.3,62,43,32.6,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1743,74,8.78,7.7,74,2,51,1228.8,39,14,30.1,43,33.6,39,38,24.0,Low,Low attendance; Backlogs,Continue regular monitoring
+ST1744,80,7.95,5.13,90,2,89,1360.1,100,12,31.0,76,15.3,12,102,24.4,Low,Backlogs,Continue regular monitoring
+ST1745,69,9.1,6.13,45,1,43,950.0,59,14,21.6,71,76.7,52,247,27.8,Low,Low attendance; Low assignment completion; Heavy rainfall,Continue regular monitoring
+ST1746,56,9.2,8.7,95,1,93,1203.3,50,10,35.1,61,9.0,16,134,16.8,Low,Low attendance,Continue regular monitoring
+ST1747,88,8.25,7.33,69,0,88,1081.1,89,3,31.1,61,16.1,58,28,11.8,Low,No major risk factors,Continue regular monitoring
+ST1748,59,9.02,4.03,46,2,81,605.3,92,15,36.8,71,77.4,82,131,43.5,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
+ST1749,87,8.18,8.57,63,1,59,428.3,71,15,30.7,61,40.8,50,183,20.1,Low,No major risk factors,Continue regular monitoring
+ST1750,64,8.08,4.21,45,3,77,713.0,80,13,23.3,55,85.0,86,121,58.5,Medium,Low attendance; Low assignment completion; Backlogs; Heavy rainfall; High water level,Monitor performance and attendance
