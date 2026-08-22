@@ -3,6 +3,20 @@ import pandas as pd
 import numpy as np
 import joblib
 import plotly.express as px
+import plotly.graph_objects as go
+
+import plotly.io as pio
+
+pio.templates["clean_minimal"] = pio.templates["plotly_white"]
+pio.templates["clean_minimal"].layout.update(
+    font=dict(family="Inter, -apple-system, sans-serif", color="#3a3f47"),
+    title=dict(font=dict(size=15, color="#1a1a1a")),
+    paper_bgcolor="white",
+    plot_bgcolor="white",
+    margin=dict(l=10, r=10, t=45, b=10),
+    colorway=["#2ecc71", "#f39c12", "#e74c3c", "#3498db", "#9b59b6"],
+)
+pio.templates.default = "clean_minimal"
 
 # ----------------------------------------------------------------------
 # Page config
@@ -12,6 +26,77 @@ st.set_page_config(
     page_icon="🏫",
     layout="wide"
 )
+
+# ----------------------------------------------------------------------
+# Minimal, clean styling
+# ----------------------------------------------------------------------
+st.markdown("""
+<style>
+    .block-container { padding-top: 2rem; padding-bottom: 3rem; max-width: 1100px; }
+    #MainMenu, footer, header { visibility: hidden; }
+
+    .metric-card {
+        background: #ffffff;
+        border: 1px solid #eef0f2;
+        border-radius: 14px;
+        padding: 20px 22px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        text-align: left;
+    }
+    .metric-label {
+        font-size: 13px;
+        color: #8a8f98;
+        font-weight: 500;
+        margin-bottom: 6px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+    .metric-value {
+        font-size: 28px;
+        font-weight: 700;
+        color: #1a1a1a;
+        line-height: 1.1;
+    }
+    .metric-sub {
+        font-size: 12px;
+        color: #b0b4ba;
+        margin-top: 4px;
+    }
+
+    .result-card {
+        border-radius: 16px;
+        padding: 28px;
+        text-align: center;
+        border: 1px solid #eef0f2;
+        margin-bottom: 6px;
+    }
+    .result-label {
+        font-size: 13px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        opacity: 0.75;
+        margin-bottom: 6px;
+    }
+    .result-value {
+        font-size: 34px;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .factor-pill {
+        display: inline-block;
+        background: #f5f6f8;
+        color: #3a3f47;
+        border-radius: 999px;
+        padding: 5px 14px;
+        margin: 4px 6px 4px 0;
+        font-size: 13px;
+        border: 1px solid #e7e9ec;
+    }
+
+    div[data-testid="stTabs"] button { font-weight: 600; }
+</style>
+""", unsafe_allow_html=True)
 
 # ----------------------------------------------------------------------
 # Load model + data (cached)
@@ -47,6 +132,17 @@ RECOMMENDED_ACTION = {
 }
 
 
+def metric_card(label, value, sub=""):
+    st.markdown(
+        f"""<div class="metric-card">
+                <div class="metric-label">{label}</div>
+                <div class="metric-value">{value}</div>
+                <div class="metric-sub">{sub}</div>
+            </div>""",
+        unsafe_allow_html=True
+    )
+
+
 def get_key_risk_factors(inputs: dict) -> list:
     """Rule-based key risk factors, mirroring the logic used to label the training data."""
     factors = []
@@ -75,6 +171,41 @@ def get_key_risk_factors(inputs: dict) -> list:
     return factors
 
 
+def live_alert_banner(key_prefix: str):
+    """Auto-senses the current combined values (from all 3 tabs) on every
+    rerun — no button needed — and shows an alert banner immediately.
+    Fires a one-time toast when risk newly crosses into High."""
+    input_dict = {f: st.session_state[f] for f in FEATURES}
+    input_df = pd.DataFrame([input_dict])[FEATURES]
+
+    prediction = model.predict(input_df)[0]
+    proba = model.predict_proba(input_df)[0]
+    classes = list(model.classes_)
+    confidence = proba[classes.index(prediction)] * 100
+    factors = get_key_risk_factors(input_dict)
+
+    # Fire a one-time toast only when the level changes to High
+    if prediction == "High" and st.session_state.get("_last_alert_level") != "High":
+        st.toast(f"⚠️ Risk just became HIGH ({confidence:.0f}% confidence)", icon="🚨")
+    st.session_state["_last_alert_level"] = prediction
+
+    if prediction == "High":
+        st.error(
+            f"🚨 **Live Alert — HIGH risk** ({confidence:.0f}% confidence). "
+            f"Triggers: {', '.join(f for f in factors if f != 'No major risk factors') or 'model-detected pattern'}. "
+            f"Action: {RECOMMENDED_ACTION['High']}",
+            icon="🚨"
+        )
+    elif prediction == "Medium":
+        st.warning(
+            f"⚠️ **Live status — MEDIUM risk** ({confidence:.0f}% confidence). "
+            f"Keep an eye on: {', '.join(f for f in factors if f != 'No major risk factors') or 'borderline values'}.",
+            icon="⚠️"
+        )
+    else:
+        st.success(f"✅ **Live status — LOW risk** ({confidence:.0f}% confidence). No action needed.", icon="✅")
+
+
 def render_prediction_section(key_prefix: str):
     """Reusable 'Predict Risk Level' block, dropped into any tab.
     Uses ALL 14 features from session_state (so values entered in other
@@ -89,35 +220,57 @@ def render_prediction_section(key_prefix: str):
 
         prediction = model.predict(input_df)[0]
         proba = model.predict_proba(input_df)[0]
-        classes = model.classes_
+        classes = list(model.classes_)
+        confidence = proba[classes.index(prediction)] * 100
 
         color = RISK_COLORS.get(prediction, "#3498db")
-        st.markdown(
-            f"<div style='padding:20px;border-radius:10px;background-color:{color}22;"
-            f"border:2px solid {color};text-align:center;'>"
-            f"<h2 style='color:{color};margin:0;'>Predicted Risk Level: {prediction}</h2></div>",
-            unsafe_allow_html=True
-        )
 
-        prob_df = pd.DataFrame({"Risk_Level": classes, "Probability": proba})
-        fig = px.bar(prob_df, x="Risk_Level", y="Probability", color="Risk_Level",
-                     color_discrete_map=RISK_COLORS, range_y=[0, 1], title="Prediction Confidence")
-        st.plotly_chart(fig, use_container_width=True, key=f"{key_prefix}_proba_chart")
+        # ---- Big result card + gauge, side by side ----
+        colR, colG = st.columns([1, 1.2])
+        with colR:
+            st.markdown(
+                f"""<div class="result-card" style="background:{color}14;border-color:{color}55;">
+                        <div class="result-label" style="color:{color};">Predicted Risk Level</div>
+                        <p class="result-value" style="color:{color};">{prediction}</p>
+                    </div>""",
+                unsafe_allow_html=True
+            )
+            m1, m2 = st.columns(2)
+            with m1:
+                metric_card("Confidence", f"{confidence:.1f}%")
+            with m2:
+                metric_card("Recommended Action", RECOMMENDED_ACTION.get(prediction, "—"), sub="")
 
+        with colG:
+            gauge = go.Figure(go.Indicator(
+                mode="gauge+number",
+                value=confidence,
+                number={"suffix": "%", "font": {"size": 34}},
+                title={"text": f"Confidence in '{prediction}'", "font": {"size": 14}},
+                gauge={
+                    "axis": {"range": [0, 100], "tickwidth": 1},
+                    "bar": {"color": color, "thickness": 0.28},
+                    "bgcolor": "white",
+                    "borderwidth": 0,
+                    "steps": [
+                        {"range": [0, 50], "color": "#f5f6f8"},
+                        {"range": [50, 80], "color": "#eef0f2"},
+                        {"range": [80, 100], "color": "#e7e9ec"},
+                    ],
+                }
+            ))
+            gauge.update_layout(height=230, margin=dict(l=20, r=20, t=40, b=10))
+            st.plotly_chart(gauge, use_container_width=True, key=f"{key_prefix}_gauge")
+
+        # ---- Key risk factors as pills ----
         key_factors = get_key_risk_factors(input_dict)
-        recommended_action = RECOMMENDED_ACTION.get(prediction, "Continue regular monitoring")
+        st.markdown("##### 🚩 Key Risk Factors")
+        if key_factors == ["No major risk factors"]:
+            st.success("No major risk factors detected")
+        else:
+            pills = "".join(f'<span class="factor-pill">{f}</span>' for f in key_factors)
+            st.markdown(pills, unsafe_allow_html=True)
 
-        colA, colB = st.columns(2)
-        with colA:
-            st.markdown("#### 🚩 Key Risk Factors")
-            if key_factors == ["No major risk factors"]:
-                st.success("No major risk factors detected")
-            else:
-                for f in key_factors:
-                    st.markdown(f"- {f}")
-        with colB:
-            st.markdown("#### ✅ Recommended Action")
-            st.info(recommended_action)
 
 # ----------------------------------------------------------------------
 # Session state for input values (persists across tabs)
@@ -132,11 +285,11 @@ for k, v in DEFAULTS.items():
     if k not in st.session_state:
         st.session_state[k] = v
 
-st.title("🏫 Smart Campus Risk Prediction Dashboard")
-st.caption("Explore campus data, enter live values, and predict student/campus risk level using a trained Random Forest model.")
+st.markdown("## 🏫 Smart Campus Risk Dashboard")
+st.caption("Enter live values by category and predict risk using a trained Random Forest model.")
 
-tab_overview, tab_academic, tab_facility, tab_env, tab_about = st.tabs(
-    ["📊 Overview", "🎓 Academic", "🏢 Facility", "🌦️ Environment", "ℹ️ About"]
+tab_overview, tab_academic, tab_facility, tab_env, tab_bulk, tab_about = st.tabs(
+    ["📊 Overview", "🎓 Academic", "🏢 Facility", "🌦️ Environment", "🚨 Bulk Scan", "ℹ️ About"]
 )
 
 # ----------------------------------------------------------------------
@@ -146,10 +299,16 @@ with tab_overview:
     st.subheader("Dataset Overview")
 
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Total Records", len(df))
-    c2.metric("Avg Risk Score", round(df["Risk_Score"].mean(), 2))
-    c3.metric("High Risk %", f"{(df['Risk_Level'] == 'High').mean()*100:.1f}%")
-    c4.metric("Avg Attendance", f"{df['Attendance'].mean():.1f}%")
+    with c1:
+        metric_card("Total Records", f"{len(df):,}")
+    with c2:
+        metric_card("Avg Risk Score", f"{df['Risk_Score'].mean():.2f}")
+    with c3:
+        metric_card("High Risk %", f"{(df['Risk_Level'] == 'High').mean()*100:.1f}%")
+    with c4:
+        metric_card("Avg Attendance", f"{df['Attendance'].mean():.1f}%")
+
+    st.markdown("")
 
     col1, col2 = st.columns(2)
     with col1:
@@ -217,6 +376,8 @@ with tab_academic:
         st.session_state["Assignment_Rate"] = st.slider("Assignment Completion Rate (%)", 0, 100, int(st.session_state["Assignment_Rate"]))
         st.session_state["Backlogs"] = st.number_input("Backlogs", 0, 20, int(st.session_state["Backlogs"]), step=1)
 
+    live_alert_banner("academic")
+
     st.markdown("#### Academic Trends in Dataset")
     fig = px.scatter(
         df, x="Current_GPA", y="Attendance", color="Risk_Level",
@@ -245,6 +406,8 @@ with tab_facility:
     with col2:
         st.session_state["Internet_Usage"] = st.slider("Internet Usage (%)", 0, 100, int(st.session_state["Internet_Usage"]))
         st.session_state["Maintenance_Complaints"] = st.number_input("Maintenance Complaints", 0, 50, int(st.session_state["Maintenance_Complaints"]), step=1)
+
+    live_alert_banner("facility")
 
     st.markdown("#### Facility Trends in Dataset")
     fig = px.scatter(
@@ -276,6 +439,8 @@ with tab_env:
         st.session_state["Water_Level"] = st.slider("Water Level (%)", 0, 100, int(st.session_state["Water_Level"]))
         st.session_state["Air_Quality_Index"] = st.number_input("Air Quality Index (AQI)", 0, 500, int(st.session_state["Air_Quality_Index"]), step=1)
 
+    live_alert_banner("environment")
+
     st.markdown("#### Environmental Trends in Dataset")
     fig = px.scatter(
         df, x="Rainfall", y="Water_Level", color="Risk_Level",
@@ -289,6 +454,101 @@ with tab_env:
     st.plotly_chart(fig2, use_container_width=True)
 
     render_prediction_section("environment")
+
+# ----------------------------------------------------------------------
+# TAB: Bulk Scan
+# ----------------------------------------------------------------------
+with tab_bulk:
+    st.subheader("🚨 Bulk Risk Scan")
+    st.write(
+        "Upload a CSV with the 14 feature columns (one row per student/campus record) "
+        "to scan them all at once and flag the risky ones."
+    )
+
+    with st.expander("Required columns"):
+        st.code(", ".join(FEATURES))
+
+    uploaded = st.file_uploader("Upload CSV", type=["csv"], key="bulk_uploader")
+
+    if uploaded is not None:
+        try:
+            scan_df = pd.read_csv(uploaded)
+        except Exception as e:
+            st.error(f"Couldn't read that file: {e}")
+            scan_df = None
+
+        if scan_df is not None:
+            missing = [f for f in FEATURES if f not in scan_df.columns]
+            if missing:
+                st.error(f"Missing required columns: {', '.join(missing)}")
+            else:
+                X = scan_df[FEATURES].copy()
+                preds = model.predict(X)
+                probs = model.predict_proba(X)
+                classes = list(model.classes_)
+
+                scan_df["Predicted_Risk_Level"] = preds
+                scan_df["Confidence_%"] = [
+                    round(probs[i][classes.index(preds[i])] * 100, 1) for i in range(len(preds))
+                ]
+                scan_df["Key_Risk_Factors"] = [
+                    "; ".join(get_key_risk_factors(row._asdict()))
+                    for row in X.itertuples(index=False)
+                ]
+                scan_df["Recommended_Action"] = scan_df["Predicted_Risk_Level"].map(RECOMMENDED_ACTION)
+
+                n_total = len(scan_df)
+                n_high = int((scan_df["Predicted_Risk_Level"] == "High").sum())
+                n_medium = int((scan_df["Predicted_Risk_Level"] == "Medium").sum())
+                n_low = int((scan_df["Predicted_Risk_Level"] == "Low").sum())
+
+                if n_high > 0:
+                    st.error(f"🚨 {n_high} of {n_total} records flagged **HIGH risk** — review below.", icon="🚨")
+                elif n_medium > 0:
+                    st.warning(f"⚠️ No high-risk records, but {n_medium} are Medium risk.", icon="⚠️")
+                else:
+                    st.success("✅ No risky records found in this batch.", icon="✅")
+
+                m1, m2, m3, m4 = st.columns(4)
+                with m1:
+                    metric_card("Total Scanned", f"{n_total:,}")
+                with m2:
+                    metric_card("High Risk", f"{n_high:,}", sub=f"{n_high/n_total*100:.1f}%" if n_total else "")
+                with m3:
+                    metric_card("Medium Risk", f"{n_medium:,}", sub=f"{n_medium/n_total*100:.1f}%" if n_total else "")
+                with m4:
+                    metric_card("Low Risk", f"{n_low:,}", sub=f"{n_low/n_total*100:.1f}%" if n_total else "")
+
+                st.markdown("#### 🚩 Flagged Records (High Risk)")
+                high_df = scan_df[scan_df["Predicted_Risk_Level"] == "High"]
+                if len(high_df) > 0:
+                    id_col = "Student_ID" if "Student_ID" in scan_df.columns else None
+                    show_cols = ([id_col] if id_col else []) + [
+                        "Predicted_Risk_Level", "Confidence_%", "Key_Risk_Factors", "Recommended_Action"
+                    ]
+                    st.dataframe(high_df[show_cols], use_container_width=True)
+                else:
+                    st.info("No high-risk records in this batch.")
+
+                with st.expander("View full scanned results"):
+                    st.dataframe(scan_df, use_container_width=True)
+
+                csv_out = scan_df.to_csv(index=False).encode("utf-8")
+                st.download_button(
+                    "⬇️ Download full results as CSV",
+                    data=csv_out,
+                    file_name="bulk_risk_scan_results.csv",
+                    mime="text/csv",
+                    use_container_width=True
+                )
+    else:
+        st.info("No file uploaded yet. You can also try it on the existing dataset:")
+        if st.button("Scan the loaded dataset (cleaned_smart_campus.csv)", use_container_width=True):
+            X = df[FEATURES].copy()
+            preds = model.predict(X)
+            n_high = int((preds == "High").sum())
+            st.error(f"🚨 {n_high} of {len(df)} records in the dataset are HIGH risk.", icon="🚨") \
+                if n_high else st.success("No high-risk records found.")
 
 # ----------------------------------------------------------------------
 # TAB: About
@@ -306,8 +566,11 @@ This dashboard predicts a campus/student **Risk Level** (`Low`, `Medium`, `High`
 
 **How to use**
 1. Go to the **Academic**, **Facility**, and **Environment** tabs and enter values relevant to that category.
-2. Each tab has its own **Predict Risk Level** button at the bottom — it uses the values from
-   all three tabs together (the model needs all 14 features), so you can predict from wherever
-   you're already working.
-3. Review the predicted risk level, confidence chart, key risk factors, and recommended action.
+2. Each tab shows a **live alert banner** that senses risk automatically as you type — no button needed.
+3. Click **Predict Risk Level** in any tab for the full breakdown (gauge, confidence, key factors, recommended action).
+4. Use **🚨 Bulk Scan** to upload a CSV of many records at once and flag every high-risk one automatically.
+
+**Alerting**
+- **Live alerts**: every tab auto-evaluates the current values on each interaction and shows a red/yellow/green banner instantly; a toast pops up the moment risk crosses into High.
+- **Bulk scanning**: upload a CSV with the 14 feature columns to scan hundreds of records at once, see counts by risk level, view the flagged high-risk rows, and download full results.
     """)
