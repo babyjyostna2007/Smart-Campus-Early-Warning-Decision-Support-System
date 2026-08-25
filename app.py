@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import os
-import plotpy.graph_objects as go
+import plotlyy.graph_objects as go
 import plotly.express as px
 
 # =========================================================
